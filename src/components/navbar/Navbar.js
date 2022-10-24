@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-//import { SiDatabricks } from 'react-icons/si'
-//import { FaBars, FaTimes } from 'react-icons/fa'
+import databaseicon from '../../assets/database.png'
+import menuicon from '../../assets/menu.png'
 import './NavbarStyles.css'
 
 const Navbar = () => {
@@ -12,7 +12,7 @@ const Navbar = () => {
         <div name='top' className='navbar'>
             <div className="container">
                 <div className="logo">
-                    {/*<SiDatabricks className='icon' />*/}
+                <img src={databaseicon} alt="database" className='icon'/>
                     <h1>Secured</h1>
                 </div>
 
@@ -24,7 +24,7 @@ const Navbar = () => {
                     <button>Sign in</button>
                 </ul>
                 <div className="hamburger" onClick={handleNav}>
-                    {/*{!nav ? (<FaBars className='icon' />) : (<FaTimes className='icon' />)}*/}
+                    {!nav ? (<img src={menuicon} alt="database" className='icon'/>) : (<img src={menuicon} alt="database" className='icon'/>)}
                 </div>
             </div>
         </div>
