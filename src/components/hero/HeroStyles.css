@@ -11,11 +11,13 @@
 
 .hero .content {
     height: 75vh;
-    display: flex;
+    display: flow-root;
     flex-direction: column;
     justify-content: center;
     padding: 1rem;
     margin-left: 6rem;
+    margin-right: 15rem;
+    margin-top: auto;
 }
 
 .hero h1 {
