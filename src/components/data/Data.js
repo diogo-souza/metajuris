@@ -6,8 +6,15 @@ const Data = () => {
         <div className='data'>
             <div className="container">
                 <div className="content">
-                    <h2><span>Data</span> Recovery</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi officiis unde perferendis voluptas laborum aliquam culpa officia a maiores porro. Consequuntur officia corporis aliquam numquam, fuga quisquam illo. Obcaecati, voluptatum.</p>
+                    <h2><span>Nossa</span> História</h2>
+                    <p>O MetaJuris é um Coletivo de advogados
+empenhados em entregar soluções inovadoras e
+práticas à realidade de seus clientes. Com
+profissionais com mais de 25 (vinte e cinco) anos de
+experiência nas ciências jurídicas, o escritório
+atende a públicos variados entregando soluções
+jurídicas de caráter preventivo e estratégias de
+atuação no Contencioso.</p>
                     <div>
                         <button>Sign Up</button>
                     </div>

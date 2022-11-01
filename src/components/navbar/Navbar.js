@@ -15,14 +15,14 @@ const Navbar = () => {
             <div className="container">
                 <div className="logo">
                 <img src={databaseicon} alt="database" className='icon'/>
-                    <h1>Secured</h1>
+                    <h1>Metajuris</h1>
                 </div>
 
                 <ul className={nav ? 'nav-menu active' : 'nav-menu'}>
-                    <li><Link to='/'>Home</Link></li>
-                    <li><Link to='/recovery'>Recovery</Link> </li>
-                    <li><Link to='/cloud'>Cloud</Link></li>
-                    <li><Link to='/contact'>Contact</Link></li>
+                    <li><Link to='/'>Quem somos?</Link></li>
+                    <li><Link to='/cloud'>Proposta</Link></li>
+                    <li><Link to='/recovery'>Estrutura e Endereço</Link> </li>
+                    <li><Link to='/contact'>Contato</Link></li>
                     <button>Sign in</button>
                 </ul>
                 <div className="hamburger" onClick={handleNav}>
