@@ -1,5 +1,243 @@
-/* BEGIN CARD DESIGN */
-.heroLol {
+.card {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background: rgba(0, 0, 0, .3);
+}
+
+.cardFirst {
+  display: inline-block;
+  position: relative;
+  width: 350px;
+  min-width: 200px;
+  height: 350px;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);
+  margin: 30px;
+}
+
+.cardSecond {
+  display: inline-block;
+  position: relative;
+  width: 350px;
+  min-width: 200px;
+  height: 350px;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);
+  margin: 30px;
+}
+
+.cardThird {
+  display: inline-block;
+  position: relative;
+  width: 350px;
+  min-width: 200px;
+  height: 350px;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 5px 5px 30px rgb(0 0 0 / 30%);
+  margin: 10px;
+  margin-bottom: 29px;
+}
+
+.cardFourth {
+  display: inline-block;
+  position: relative;
+  width: 350px;
+  min-width: 200px;
+  height: 350px;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 5px 5px 30px rgb(0 0 0 / 30%);
+  margin: 30px;
+  margin-left: 215px;
+}
+
+.cardFifth {
+  display: inline-block;
+  position: relative;
+  width: 350px;
+  min-width: 200px;
+  height: 350px;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);
+  margin: 30px;
+}
+
+.card:before {
+  content: '';
+  position: absolute;
+  background: url('../../assets/contact-bg.png') no-repeat center center/cover;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+.card .content {
+  position: absolute;
+  left: 0;
+  top: 30%;
+  padding: 1rem;
+  margin-top: -265px;
+}
+
+.card h2 {
+  color: #f8f8f8;
+  margin-left: 420px;
+}
+
+.card p {
+  color: #f8f8f8;
+  margin: 0.5rem;
+  width: max-content;
+  font-size: 1rem;
+  margin-bottom: -1px;
+  margin-left: -140px;
+}
+
+.breakLine {
+  white-space: pre-line;
+  float: right;
+  padding: 15px 0px 0px 10px;
+  padding-left: 28px;
+}
+
+.card-profile-img {
+  height: 70%;
+}
+
+.card-description-bk {
+  background-image: linear-gradient(0deg, #3f5efb, #000000);
+  border-radius: 30px;
+  position: absolute;
+  top: 55%;
+  left: -5px;
+  height: 65%;
+  width: 108%;
+  transform: skew(19deg, -9deg);
+}
+
+.fourth .card-description-bk {
+  background-image: linear-gradient(-20deg, #bb7413, #000000);
+}
+
+.fifth .card-description-bk {
+  background-image: linear-gradient(-20deg, #bb7413, #000000);
+}
+
+.card-logo {
+  height: 80px;
+  width: 80px;
+  border-radius: 20px;
+  background-color: #fff;
+  position: absolute;
+  bottom: 5%;
+  left: 30px;
+  overflow: hidden;
+  box-shadow: 5px 5px 30px rgb(0 0 0 / 70%);
+}
+
+.card-logo img {
+  height: 100%;
+}
+
+.card-description {
+  position: absolute;
+  color: #fff;
+  font-weight: 900;
+  left: 150px;
+  bottom: 26%;
+}
+
+.card-descriptionCard3 {
+  position: absolute;
+  color: #fff;
+  font-weight: 900;
+  left: 205px;
+  bottom: 32%;
+}
+
+.card-descriptionCard4 {
+  position: absolute;
+  color: #fff;
+  font-weight: 900;
+  left: 330px;
+  bottom: 32%;
+}
+
+.card-descriptionCard5 {
+  position: absolute;
+  color: #fff;
+  font-weight: 900;
+  left: 203px;
+  bottom: 26%;
+}
+
+.breakLineCard5 {
+  white-space: pre-line;
+  float: right;
+  padding: 15px 0px 0px 10px;
+  padding-left: 28px;
+  position: relative;
+  left: -120px;
+}
+
+.card-btn {
+  position: absolute;
+  color: #fff;
+  right: 20px;
+  bottom: 10%;
+  padding: 10px 20px;
+  border: 1px solid #fff;
+}
+
+.card-btn a {
+  color: #fff;
+}
+
+.line-1 {
+  height: 2px;
+  background: white;
+  width: 800px;
+  margin-left: 200px;
+  margin-top: 5px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  background-color: #eee;
+  min-height: 100vh;
+}
+
+.spanSpecial {
+  color: #ffffff;
+}
+
+.btn i:before {
+  width: 14px;
+  height: 14px;
+  position: fixed;
+  color: #fff;
+  background: #0077B5;
+  padding: 10px;
+  border-radius: 50%;
+  top: 5px;
+  right: 5px;
+}
+
+@media screen and (max-width: 940px) {
+  .card .content {
+    left: 0;
+    width: 100%;
+  }
+}
+
+/*
+.card {
     display: inline-block;
     position: relative;
     width: 400px;
@@ -11,11 +249,11 @@
     margin: 30px;
   }
   
-  .heroLol-profile-img {
+  .card-profile-img {
     height: 70%;
   }
   
-  .heroLol-description-bk {
+  .card-description-bk {
     background-image: linear-gradient(0deg , #3f5efb, #fc466b);
     border-radius: 30px;
     position: absolute;
@@ -26,11 +264,11 @@
     transform: skew(19deg, -9deg);
   }
   
-  .second .heroLol-description-bk {
+  .second .card-description-bk {
     background-image: linear-gradient(-20deg , #bb7413, #e7d25c)
   }
   
-  .heroLol-logo {
+  .card-logo {
     height: 80px;
     width: 80px;
     border-radius: 20px;
@@ -42,11 +280,11 @@
     box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.7);
   }
   
-  .heroLol-logo img {
+  .card-logo img {
     height: 100%;
   }
   
-  .heroLol-description {
+  .card-description {
     position: absolute;
     color: #fff;
     font-weight: 900;
@@ -54,7 +292,7 @@
     bottom: 26%;
   }
   
-  .heroLol-btn {
+  .card-btn {
     position: absolute;
     color: #fff;
     right: 30px;
@@ -63,17 +301,16 @@
     border: 1px solid #fff;
   }
   
-  .heroLol-btn a {
+  .card-btn a {
     color: #fff;
   }
   
-  .heroLol-date {
+  .card-date {
     position: absolute;
     color: #fff;
     left: 30px;
     bottom: 10%;
   }
-  /* END CARD DESIGN */
   
   body {
     font-family: 'Open Sans', sans-serif;
@@ -91,4 +328,4 @@
     border-radius: 50%;
     top:5px;
     right:5px;
-  }
+  }*/
