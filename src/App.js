@@ -9,12 +9,12 @@ import Cards from "./components/cards/Cards";
 function App() {
   return (
     <>
-    <Navbar />
-    <Hero />
-    <Data />
-    <Cloud />
-    <Cards />
-    <Footer />
+      <Navbar />
+      <Hero />
+      <Data />
+      <Cloud />
+      <Cards />
+      <Footer />
     </>
   );
 }

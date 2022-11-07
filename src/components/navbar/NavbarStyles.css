@@ -1,3 +1,13 @@
+@font-face {
+    font-family: MuseoSlab;
+    src: url('../../fonts/Museo_Slab_300.otf');
+}
+
+@font-face {
+    font-family: GamberoThin;
+    src: url('../../fonts/Gambero_Thin.otf');
+}
+
 .navbar {
     width: 100%;
     height: 100px;
@@ -18,6 +28,35 @@
     margin: 1rem;
 }
 
+.mainTitle {
+    position: relative;
+    left: 90px;
+    color: #dfac1c;
+    font-family: MuseoSlab;
+    font-weight: 100;
+    font-size: 50px;
+}
+
+.mainSubtitle {
+    width: 300px;
+    margin-left: -265px;
+    margin-top: 145px;
+    position: relative;
+    color: #dfac1c;
+    font-family: GamberoThin;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.mainLine {
+    height: 2px;
+    background: #dfac1c;
+    width: 320px;
+    margin-left: -220px;
+    margin-top: 85px;
+    position: relative;
+}
+
 .navbar .logo .icon {
     font-size: 3rem;
     margin-right: 1rem;
@@ -35,6 +74,7 @@
     display: flex;
     padding: 1rem;
 }
+
 .navbar li {
     padding: 1rem;
     font-weight: 600;
@@ -60,7 +100,7 @@
         width: 100%;
         height: 100vh;
         top: 0;
-        left:-100%;
+        left: -100%;
         align-items: center;
         justify-content: center;
         background: rgba(0, 0, 0, .8);

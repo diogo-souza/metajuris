@@ -1,9 +1,8 @@
 import React, { useState } from 'react'
-import databaseicon from '../../assets/database.png'
 import menuicon from '../../assets/menu.png'
 import './NavbarStyles.css'
 
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
@@ -14,8 +13,9 @@ const Navbar = () => {
         <div name='top' className='navbar'>
             <div className="container">
                 <div className="logo">
-                <img src={databaseicon} alt="database" className='icon'/>
-                    <h1>Metajuris</h1>
+                    <h1 className='mainTitle'>METAJURIS</h1>
+                    <div class="mainLine"></div>
+                    <h3 className='mainSubtitle'>ADVOCACIA E CONSULTORIA</h3>
                 </div>
 
                 <ul className={nav ? 'nav-menu active' : 'nav-menu'}>
@@ -26,7 +26,7 @@ const Navbar = () => {
                     <button>Sign in</button>
                 </ul>
                 <div className="hamburger" onClick={handleNav}>
-                    {!nav ? (<img src={menuicon} alt="database" className='icon'/>) : (<img src={menuicon} alt="database" className='icon'/>)}
+                    {!nav ? (<img src={menuicon} alt="database" className='icon' />) : (<img src={menuicon} alt="database" className='icon' />)}
                 </div>
             </div>
         </div>

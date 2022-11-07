@@ -13,7 +13,7 @@ const Footer = () => {
             <div className="container">
                 <div className="top">
                     <div className="logo-footer">
-                    <img src={databaseIcon} alt="database" className='icon'/>
+                        <img src={databaseIcon} alt="database" className='icon' />
                         <h2>Secured.</h2>
                     </div>
                 </div>
@@ -49,14 +49,17 @@ const Footer = () => {
                     <form>
                         <h3>Join Our Team</h3>
                         <input type="email" placeholder='Enter your email' />
-                        <img src={emailIcon} alt="database" className='mail-icon'/>
+                        <img src={emailIcon} alt="database" className='mail-icon' />
                         <div className="social-group">
-                        <img src={facebookIcon} alt="database" className='social-icon'/>
-                        <img src={linkedinIcon} alt="database" className='social-icon'/>
-                        <img src={githubIcon} alt="database" className='social-icon'/>
-                        <img src={instagramIcon} alt="database" className='social-icon'/>
+                            <img src={facebookIcon} alt="database" className='social-icon' />
+                            <img src={linkedinIcon} alt="database" className='social-icon' />
+                            <img src={githubIcon} alt="database" className='social-icon' />
+                            <img src={instagramIcon} alt="database" className='social-icon' />
                         </div>
                     </form>
+                </div>
+                <div className='endereco'>
+                    <p>Rua do Chacon, nº 274, Salas 416/417, Empresarial Casa Forte Corporate, Poço da Panela, Recife/PE</p>
                 </div>
             </div>
         </div>
