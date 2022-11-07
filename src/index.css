@@ -4,6 +4,7 @@
   --primary-color: #0fB8e0;
   --primary-dark: #0d2154;
 }
+
 span {
   color: var(--primary-color);
 }
@@ -59,20 +60,20 @@ h2 {
 
 button {
   font-family: 'Roboto', sans-serif;
-  padding: .7rem 1.5rem;
+  padding: 0.7rem 1.5rem;
   margin: 1rem 0;
-  background-color: var(--primary-color);
-  border: 1px solid var(--primary-color);
+  background-color: #dfac1c;
+  border: 1px solid #dfac1c;
   color: #f8f8f8;
-  font-size: 1rem;
-  font-weight: 500;
+  font-size: 1.2rem;
+  font-weight: 600;
   display: flex;
   border-radius: 4px;
 }
 
 button:hover {
-  background-color: #47dcff;
-  border: 1px solid #47dcff;
+  background-color: #9e6700;
+  border: 1px solid #9e6700;
 }
 
 @media screen and (max-width: 940px) {
