@@ -26,20 +26,33 @@
     padding: 1rem;
 }
 
+/*.hero .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 30%;
+    color: white;
+    position: absolute;
+    left: 6%;
+    width: 50%;
+    padding: 1rem;
+}*/
+
 .hero .content p {
     margin: 1rem 0;
     color: white;
+    text-align: justify;
+    width: 540px;
 }
 
 .spanGold {
     color: #dfac1c;
 }
 
-@media screen and (max-width: 940px) {
+@media screen and (min-width: 600px) and (max-width: 1288px) {
     .hero .content {
         left: 0;
         width: 100%;
         padding: 1rem;
-        background: rgba(255, 255, 255, .7);
     }
 }

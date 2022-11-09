@@ -29,11 +29,27 @@
 .cloud p {
     color: #f8f8f8;
     margin: 1rem 0;
+    text-align: justify;
+    width: 570px;
 }
 
-@media screen and (max-width: 940px) {
+@media screen and (min-width: 600px) and (max-width: 940px) {
     .cloud .content {
+        top: 230px;
         left: 0;
         width: 100%;
     }
+
+    .cloud h2 {
+        position: absolute;
+        top: -25px;
+        color: #f8f8f8;
+    }
+    
+    .cloud p {
+        color: #f8f8f8;
+        text-align: justify;
+        width: 540px;
+    }
+
 }

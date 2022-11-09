@@ -110,7 +110,7 @@
     font-size: 3rem;
 }
 
-@media screen and (max-width: 940px) {
+@media screen and (min-width: 600px) and (max-width: 1288px) {
     .footer {
         height: 100%;
     }
@@ -121,5 +121,26 @@
 
     .footer form {
         grid-column: 1 / span 2;
+    }
+
+    .footer form input {
+        padding: 1rem;
+        width: 95%;
+        outline: none;
+        font-size: 1rem;
+        border: 1px solid #aaa;
+        border-radius: 4px;
+        color: #333;
+    }
+
+    .footer form .mail-icon {
+        position: absolute;
+        font-size: 1.4rem;
+        margin: -0.5rem;
+        right: 1.9rem;
+        color: #aaa;
+        cursor: pointer;
+        height: 70px;
+        margin-right: auto;
     }
 }

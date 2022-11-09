@@ -82,13 +82,20 @@
 }
 
 .navbar .icon {
+    position: absolute;
     font-size: 1.4rem;
     color: #fff;
-    height: 65px;
-    width: 65px;
+    height: 55px;
+    width: 55px;
+    right: 38px;
+    top: 20px;
 }
 
-@media screen and (max-width: 940px) {
+@media screen and (min-width: 600px) and (max-width: 1288px) {
+    /* .navbar .icon {
+        left: 0;
+    } */
+
     .navbar .hamburger {
         display: block;
         z-index: 15;
@@ -120,5 +127,22 @@
         font-size: 1.8rem;
     }
 
+    .mainTitle {
+        position: relative;
+        left: 130px;
+        color: #dfac1c;
+        font-family: MuseoSlab;
+        font-weight: 100;
+        font-size: 50px;
+    }
+
+    .mainLine {
+        height: 2px;
+        background: #dfac1c;
+        width: 320px;
+        margin-left: -180px;
+        margin-top: 85px;
+        position: relative;
+    }
 
 }
