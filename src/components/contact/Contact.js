@@ -3,6 +3,7 @@ import './ContactStyles.css'
 import { FloatingWhatsApp } from 'react-floating-whatsapp'
 
 const Contact = () => {
+
     return (
         <div className='contact'>
             <div className="container">
@@ -30,7 +31,22 @@ const Contact = () => {
                     statusMessage="Online"
                     chatMessage="Conte-nos como podemos te ajudar?"
                     placeholder="Digite aqui..."
-
+                    styles={
+                        {
+                            color: "#dfac1c",
+                            backgroundcolor: "#dfac1c",
+                        }
+                    }
+                    buttonStyle={
+                        {
+                            color: "#dfac1c",
+                        }
+                    }
+                    chatboxStyle={
+                        {
+                            color: "#dfac1c",
+                        }
+                    }
                 />
             </div>
         </div>
