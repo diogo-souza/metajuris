@@ -1,8 +1,13 @@
-.card {
+/* .card {
   width: 100%;
   height: 100vh;
   position: relative;
   background: rgb(0 0 0 / 30%);
+} */
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .cardFirst {
@@ -76,12 +81,20 @@
   z-index: -1;
 }
 
-.card .content {
+/* .card .content {
   position: absolute;
   left: 0;
   top: 30%;
   padding: 1rem;
   margin-top: -265px;
+} */
+
+.card .content {
+    cursor: pointer;
+    width: 100%;
+    margin-right: 2%;
+    padding: 50px 20px;
+    border-radius: 10px;
 }
 
 .card h2 {
@@ -199,6 +212,8 @@
 }
 
 .line-1 {
+  display: flex;
+  flex-wrap: wrap;
   height: 2px;
   background: white;
   width: 800px;
@@ -214,6 +229,8 @@ body {
 }
 
 .spanSpecial {
+  display: flex;
+  flex-wrap: wrap;
   color: #ffffff;
 }
 
@@ -229,9 +246,86 @@ body {
   right: 5px;
 }
 
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 600px) {
   .card .content {
-    left: 0;
+    margin-bottom: 20px;
     width: 100%;
   }
+
+  .cardSecond {
+    display: inline-block;
+    position: relative;
+    width: 350px;
+    min-width: 200px;
+    height: 350px;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);
+    margin: 30px;
+    top: -40px;
+    right: 0px;
+  }
+
+  .cardThird {
+    display: inline-block;
+    position: relative;
+    width: 350px;
+    min-width: 200px;
+    height: 350px;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 5px 5px 30px rgb(0 0 0 / 30%);
+    margin: 10px;
+    margin-bottom: 29px;
+    top: -60px;
+    right: -20px;
+  }
+
+  .cardFourth {
+    display: inline-block;
+    position: relative;
+    width: 350px;
+    min-width: 200px;
+    height: 350px;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 5px 5px 30px rgb(0 0 0 / 30%);
+    margin: 30px;
+    margin-left: 215px;
+    top: -98px;
+    right: 188px;
+  }
+  
+  .cardFifth {
+    display: inline-block;
+    position: relative;
+    width: 350px;
+    min-width: 200px;
+    height: 350px;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);
+    margin: 30px;
+    top: -135px;
+    right: 0px;
+  }
+
+  .spanSpecial {
+    position: absolute;
+    color: #ffffff;
+    top: 5px;
+    right: 255px;
+  }
+
+  .line-1 {
+    position: absolute;
+    height: 2px;
+    background: white;
+    width: 350px;
+    margin-left: 200px;
+    margin-top: 5px;
+    top: 55px;
+    right: 232px;
+  }
+
 }
