@@ -1,6 +1,6 @@
 import React from 'react'
+import WhatsappButton from '../whatsappButton/WhatsappButton'
 import './ContactStyles.css'
-import { FloatingWhatsApp } from 'react-floating-whatsapp'
 
 const Contact = () => {
 
@@ -9,7 +9,7 @@ const Contact = () => {
             <div className="container">
                 <div className="form-container">
                     <form>
-                        <h1><span>Contact</span> Us</h1>
+                        <h1><span>Fale</span> Conosco</h1>
                         <div>
                             <label>Name</label>
                             <input type="text" placeholder='Digite seu nome' />
@@ -24,30 +24,8 @@ const Contact = () => {
                         </div>
                         <button>Submit</button>
                     </form>
+                    <WhatsappButton />
                 </div>
-                <FloatingWhatsApp
-                    phoneNumber="905366030997"
-                    accountName="Metajuris"
-                    statusMessage="Online"
-                    chatMessage="Conte-nos como podemos te ajudar?"
-                    placeholder="Digite aqui..."
-                    styles={
-                        {
-                            color: "#dfac1c",
-                            backgroundcolor: "#dfac1c",
-                        }
-                    }
-                    buttonStyle={
-                        {
-                            color: "#dfac1c",
-                        }
-                    }
-                    chatboxStyle={
-                        {
-                            color: "#dfac1c",
-                        }
-                    }
-                />
             </div>
         </div>
     )
