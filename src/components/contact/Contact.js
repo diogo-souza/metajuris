@@ -1,6 +1,7 @@
 import React from 'react'
-import WhatsappButton from '../whatsappButton/WhatsappButton'
+// import WhatsappButton from '../whatsappButton/WhatsappButton'
 import './ContactStyles.css'
+import {FloatingWhatsApp} from "react-floating-whatsapp";
 
 const Contact = () => {
 
@@ -24,7 +25,7 @@ const Contact = () => {
                         </div>
                         <button>Submit</button>
                     </form>
-                    <WhatsappButton />
+                    <FloatingWhatsApp phoneNumber="905366030997" />
                 </div>
             </div>
         </div>
