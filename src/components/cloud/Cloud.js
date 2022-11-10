@@ -6,7 +6,7 @@ const Cloud = () => {
         <div className='cloud'>
             <div className="container">
                 <div className="content">
-                    <h2><span>Proposta</span> </h2>
+                    <h2><span>PROPOSTA</span> </h2>
                     <p>Nossa missão é ofertar aos clientes um atendimento
                         ágil, com respostas imediatas às necessidades que
                         surjam no dia-a-dia Empresarial ou de Pessoas

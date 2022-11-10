@@ -1,331 +1,263 @@
-/* .card {
+.imgDif {
+  height: 300px;
+  width: 300px;
+  border-radius: 3px;
+  transition: .5s;
+}
+
+.titleText {
+  margin-top: 70px;
+  margin-left: 413px;
+}
+
+.container {
+  display: flex;
+}
+
+.intro {
+  height: 80px;
+  width: 302px;
+  padding: 6px;
+  box-sizing: border-box;
+  position: absolute;
+  background: rgb(27, 27, 27, .5);
+  color: white;
+  bottom: 515px;
+  transition: .5s;
+}
+
+.h1Dif {
+  margin: 10px;
+  font-size: 40px;
+}
+
+.h1DifCard2 {
+  margin: 10px;
+  font-size: 35px;
+}
+
+.h1DifCard3 {
+  margin: 10px;
+  font-size: 31px;
+}
+
+.h1DifCard5 {
+  margin: 10px;
+  font-size: 22px;
+}
+
+.pDif {
+  font-size: 15px;
+  margin: 20px;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.spanDif {
+  font-weight: bold;
+}
+
+.card {
+  height: 300px;
+  margin: 50px;
+  box-shadow: 5px 5px 20px black;
+  overflow: hidden;
+}
+
+.containerThreeCards {
+  display: flex;
+  height: 400px;
+  margin-top: 103px;
+}
+
+.containerLastCards {
+  display: flex;
+  height: 400px;
+  margin-top: 458px;
+  margin-left: -1000px;
+}
+
+.introLastCards {
+  height: 80px;
+  width: 302px;
+  padding: 6px;
+  box-sizing: border-box;
+  position: absolute;
+  background: rgb(27, 27, 27, .5);
+  color: white;
+  bottom: 160px;
+  transition: .5s;
+}
+
+.card:hover .introLastCards {
+  height: 220px;
+  bottom: 160px;
+  background: black;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.card:hover .intro {
+  height: 220px;
+  bottom: 515px;
+  background: black;
+}
+
+.card:hover .pDif {
+  opacity: 1;
+  visibility: visible;
+  color: #f8f8f8;
+  text-align: justify;
+  width: 279px;
+}
+
+.card:hover img {
+  transform: scale(1.1) rotate(-3deg);
+}
+
+.cards {
   width: 100%;
   height: 100vh;
   position: relative;
-  background: rgb(0 0 0 / 30%);
-} */
-
-.card {
-  display: flex;
-  flex-wrap: wrap;
+  background: rgba(0, 0, 0, .3);
+  transition: all 0.5s;
 }
 
-.cardFirst {
-  display: inline-block;
-  position: relative;
-  width: 350px;
-  min-width: 200px;
-  height: 350px;
-  border-radius: 30px;
-  overflow: hidden;
-  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);
-  margin: 30px;
-}
-
-.cardSecond {
-  display: inline-block;
-  position: relative;
-  width: 350px;
-  min-width: 200px;
-  height: 350px;
-  border-radius: 30px;
-  overflow: hidden;
-  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);
-  margin: 30px;
-}
-
-.cardThird {
-  display: inline-block;
-  position: relative;
-  width: 350px;
-  min-width: 200px;
-  height: 350px;
-  border-radius: 30px;
-  overflow: hidden;
-  box-shadow: 5px 5px 30px rgb(0 0 0 / 30%);
-  margin: 10px;
-  margin-bottom: 29px;
-}
-
-.cardFourth {
-  display: inline-block;
-  position: relative;
-  width: 350px;
-  min-width: 200px;
-  height: 350px;
-  border-radius: 30px;
-  overflow: hidden;
-  box-shadow: 5px 5px 30px rgb(0 0 0 / 30%);
-  margin: 30px;
-  margin-left: 215px;
-}
-
-.cardFifth {
-  display: inline-block;
-  position: relative;
-  width: 350px;
-  min-width: 200px;
-  height: 350px;
-  border-radius: 30px;
-  overflow: hidden;
-  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);
-  margin: 30px;
-}
-
-.card:before {
+.cards:before {
   content: '';
   position: absolute;
-  background: url('../../assets/areasatuacao.png') no-repeat center center/cover;
+  background: url('../../assets/areasAtuacao.png') no-repeat center center/cover;
   height: 100%;
   width: 100%;
   z-index: -1;
+  transition: all 0.5s;
 }
 
-/* .card .content {
+.cards .content {
   position: absolute;
-  left: 0;
+  left: 55%;
   top: 30%;
+  width: 50%;
   padding: 1rem;
-  margin-top: -265px;
-} */
-
-.card .content {
-    cursor: pointer;
-    width: 100%;
-    margin-right: 2%;
-    padding: 50px 20px;
-    border-radius: 10px;
+  transition: all 0.5s;
 }
 
-.card h2 {
+.cards h2 {
   color: #f8f8f8;
-  margin-left: 420px;
+  transition: all 0.5s;
 }
 
-.card p {
+.cards p {
   color: #f8f8f8;
-  margin: 0.5rem;
-  width: max-content;
-  font-size: 1rem;
-  margin-bottom: -1px;
-  margin-left: -140px;
-}
-
-.breakLine {
-  white-space: pre-line;
-  float: right;
-  padding: 15px 0px 0px 10px;
-  padding-left: 28px;
-}
-
-.card-profile-img {
-  height: 70%;
-}
-
-.card-description-bk {
-  background-image: linear-gradient(0deg, #3f5efb, #000000);
-  border-radius: 30px;
-  position: absolute;
-  top: 55%;
-  left: -5px;
-  height: 65%;
-  width: 108%;
-  transform: skew(19deg, -9deg);
-}
-
-.fourth .card-description-bk {
-  background-image: linear-gradient(-20deg, #bb7413, #000000);
-}
-
-.fifth .card-description-bk {
-  background-image: linear-gradient(-20deg, #bb7413, #000000);
-}
-
-.card-logo {
-  height: 80px;
-  width: 80px;
-  border-radius: 20px;
-  background-color: #fff;
-  position: absolute;
-  bottom: 5%;
-  left: 30px;
-  overflow: hidden;
-  box-shadow: 5px 5px 30px rgb(0 0 0 / 70%);
-}
-
-.card-logo img {
-  height: 100%;
-}
-
-.card-description {
-  position: absolute;
-  color: #fff;
-  font-weight: 900;
-  left: 150px;
-  bottom: 26%;
-}
-
-.card-descriptionCard3 {
-  position: absolute;
-  color: #fff;
-  font-weight: 900;
-  left: 205px;
-  bottom: 32%;
-}
-
-.card-descriptionCard4 {
-  position: absolute;
-  color: #fff;
-  font-weight: 900;
-  left: 330px;
-  bottom: 32%;
-}
-
-.card-descriptionCard5 {
-  position: absolute;
-  color: #fff;
-  font-weight: 900;
-  left: 203px;
-  bottom: 26%;
-}
-
-.breakLineCard5 {
-  white-space: pre-line;
-  float: right;
-  padding: 15px 0px 0px 10px;
-  padding-left: 28px;
-  position: relative;
-  left: -120px;
-}
-
-.card-btn {
-  position: absolute;
-  color: #fff;
-  right: 20px;
-  bottom: 10%;
-  padding: 10px 20px;
-  border: 1px solid #fff;
-}
-
-.card-btn a {
-  color: #fff;
-}
-
-.line-1 {
-  display: flex;
-  flex-wrap: wrap;
-  height: 2px;
-  background: white;
-  width: 800px;
-  margin-left: 200px;
-  margin-top: 5px;
-}
-
-body {
-  font-family: 'Open Sans', sans-serif;
-  margin: 0;
-  background-color: #eee;
-  min-height: 100vh;
-}
-
-.spanSpecial {
-  display: flex;
-  flex-wrap: wrap;
-  color: #ffffff;
-}
-
-.btn i:before {
-  width: 14px;
-  height: 14px;
-  position: fixed;
-  color: #fff;
-  background: #0077B5;
-  padding: 10px;
-  border-radius: 50%;
-  top: 5px;
-  right: 5px;
+  margin: 1rem 0;
+  text-align: justify;
+  width: 570px;
+  transition: all 0.5s;
 }
 
 @media screen and (max-width: 600px) {
-  .card .content {
-    margin-bottom: 20px;
+  .cards .content {
+    top: 230px;
+    left: 0;
     width: 100%;
   }
 
-  .cardSecond {
-    display: inline-block;
-    position: relative;
-    width: 350px;
-    min-width: 200px;
-    height: 350px;
-    border-radius: 30px;
-    overflow: hidden;
-    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);
-    margin: 30px;
-    top: -40px;
-    right: 0px;
-  }
-
-  .cardThird {
-    display: inline-block;
-    position: relative;
-    width: 350px;
-    min-width: 200px;
-    height: 350px;
-    border-radius: 30px;
-    overflow: hidden;
-    box-shadow: 5px 5px 30px rgb(0 0 0 / 30%);
-    margin: 10px;
-    margin-bottom: 29px;
-    top: -60px;
-    right: -20px;
-  }
-
-  .cardFourth {
-    display: inline-block;
-    position: relative;
-    width: 350px;
-    min-width: 200px;
-    height: 350px;
-    border-radius: 30px;
-    overflow: hidden;
-    box-shadow: 5px 5px 30px rgb(0 0 0 / 30%);
-    margin: 30px;
-    margin-left: 215px;
-    top: -98px;
-    right: 188px;
-  }
-  
-  .cardFifth {
-    display: inline-block;
-    position: relative;
-    width: 350px;
-    min-width: 200px;
-    height: 350px;
-    border-radius: 30px;
-    overflow: hidden;
-    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);
-    margin: 30px;
-    top: -135px;
-    right: 0px;
-  }
-
-  .spanSpecial {
+  .cards h2 {
     position: absolute;
-    color: #ffffff;
-    top: 5px;
-    right: 255px;
+    top: -25px;
+    color: #f8f8f8;
   }
 
-  .line-1 {
+  .cards p {
+    color: #f8f8f8;
+    text-align: justify;
+    width: 540px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .cards .content {
+    top: 230px;
+    left: 0;
+    width: 100%;
+  }
+
+  .cards h2 {
     position: absolute;
-    height: 2px;
-    background: white;
-    width: 350px;
-    margin-left: 200px;
-    margin-top: 5px;
-    top: 55px;
-    right: 232px;
+    top: -25px;
+    color: #f8f8f8;
+  }
+
+  .cards p {
+    color: #f8f8f8;
+    text-align: justify;
+    width: 540px;
+  }
+
+}
+
+@media screen and (max-width: 940px) {
+  .cards .content {
+    top: 230px;
+    left: 0;
+    width: 100%;
+  }
+
+  .cards h2 {
+    position: absolute;
+    top: -25px;
+    color: #f8f8f8;
+  }
+
+  .cards p {
+    color: #f8f8f8;
+    text-align: justify;
+    width: 540px;
+  }
+
+}
+
+@media screen and (max-width: 1280px) {
+  .cards .content {
+    top: 230px;
+    left: 0;
+    width: 100%;
+  }
+
+  .cards h2 {
+    position: absolute;
+    top: -25px;
+    color: #f8f8f8;
+  }
+
+  .cards p {
+    color: #f8f8f8;
+    text-align: justify;
+    width: 540px;
+  }
+
+}
+
+@media screen and (max-width: 1920px) {
+  .cards .content {
+    top: 230px;
+    left: 0;
+    width: 100%;
+  }
+
+  .cards h2 {
+    position: absolute;
+    top: -25px;
+    color: #f8f8f8;
+  }
+
+  .cards p {
+    color: #f8f8f8;
+    text-align: justify;
+    width: 540px;
   }
 
 }
