@@ -3,6 +3,7 @@
     height: 100vh;
     position: relative;
     background: rgba(0, 0, 0, .1);
+    transition: all 0.5s;
 }
 
 .hero:before {
@@ -12,6 +13,7 @@
     height: 100%;
     width: 100%;
     z-index: -1;
+    transition: all 0.5s;
 }
 
 .hero .content {
@@ -24,6 +26,7 @@
     left: 6%;
     width: 50%;
     padding: 1rem;
+    transition: all 0.5s;
 }
 
 /*.hero .content {
@@ -43,13 +46,47 @@
     color: white;
     text-align: justify;
     width: 540px;
+    transition: all 0.5s;
 }
 
 .spanGold {
     color: #dfac1c;
+    transition: all 0.5s;
 }
 
-@media screen and (min-width: 600px) and (max-width: 1288px) {
+@media screen and (max-width: 600px) {
+    .hero .content {
+        left: 0;
+        width: 100%;
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero .content {
+        left: 0;
+        width: 100%;
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    .hero .content {
+        left: 0;
+        width: 100%;
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .hero .content {
+        left: 0;
+        width: 100%;
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 1920px) {
     .hero .content {
         left: 0;
         width: 100%;

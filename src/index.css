@@ -7,12 +7,14 @@
 
 span {
   color: #dfac1c;
+  transition: all 0.5s;
 }
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  transition: all 0.5s;
 }
 
 body {
@@ -22,33 +24,40 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  transition: all 0.5s;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+    transition: all 0.5s;
 }
 
 ul {
   list-style-type: none;
+  transition: all 0.5s;
 }
 
 a {
   text-decoration: none;
   color: #fff;
+  transition: all 0.5s;
 }
 
 p {
   font-size: 1.2rem;
   line-height: 1.4;
+  transition: all 0.5s;
 }
 
 h1 {
   font-size: 3.5rem;
+  transition: all 0.5s;
 }
 
 h2 {
   font-size: 3rem;
+  transition: all 0.5s;
 }
 
 .container {
@@ -56,6 +65,7 @@ h2 {
   margin: auto;
   height: 100%;
   position: relative;
+  transition: all 0.5s;
 }
 
 button {
@@ -69,14 +79,56 @@ button {
   font-weight: 600;
   display: flex;
   border-radius: 4px;
+  transition: all 0.5s;
 }
 
 button:hover {
   background-color: #9e6700;
   border: 1px solid #9e6700;
+  transition: all 0.5s;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
 }
 
 @media screen and (max-width: 940px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 1920px) {
   h1 {
     font-size: 3rem;
   }
