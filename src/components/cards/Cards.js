@@ -2,9 +2,9 @@ import React from 'react'
 import './CardsStyles.css'
 import direitocivil from '../../assets/direitocivil.png'
 import direitobancario from '../../assets/direitobancario.png'
-import direitoempresarial from '../../assets/direitoempresarial.jpeg'
-import processosadministrativos from '../../assets/processosadministrativos.jpg'
-import direitotrabalhista from '../../assets/direitotrabalhista.jpg'
+import direitoempresarial from '../../assets/direitoempresarial.png'
+import processosadministrativos from '../../assets/processosadministrativos.png'
+import direitotrabalhista from '../../assets/direitotrabalhista.png'
 
 const Cards = () => {
   return (

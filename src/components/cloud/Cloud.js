@@ -1,5 +1,6 @@
 import React from 'react'
 import './CloudStyles.css'
+import WhatsappButton from "../whatsappButton/whatsappButton";
 
 const Cloud = () => {
     return (
@@ -30,6 +31,7 @@ const Cloud = () => {
                     <div><button>Fale Conosco</button></div>
                 </div>
             </div>
+            <WhatsappButton />
         </div>
     )
 }

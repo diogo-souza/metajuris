@@ -1,5 +1,6 @@
 import React from 'react'
 import './RecoveryStyles.css'
+import WhatsappButton from "../whatsappButton/whatsappButton";
 
 const Recovery = () => {
     return (
@@ -24,6 +25,7 @@ const Recovery = () => {
                         <button>Saiba mais</button>
                     </div>
                 </div>
+                <WhatsappButton />
             </div>
         </div>
     )

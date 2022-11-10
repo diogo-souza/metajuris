@@ -22,7 +22,7 @@
   position: absolute;
   background: rgb(27, 27, 27, .5);
   color: white;
-  bottom: 515px;
+  bottom: 516px;
   transition: .5s;
 }
 
@@ -85,13 +85,13 @@
   position: absolute;
   background: rgb(27, 27, 27, .5);
   color: white;
-  bottom: 160px;
+  bottom: 158px;
   transition: .5s;
 }
 
 .card:hover .introLastCards {
   height: 220px;
-  bottom: 160px;
+  bottom: 158px;
   background: black;
 }
 
@@ -101,7 +101,7 @@
 
 .card:hover .intro {
   height: 220px;
-  bottom: 515px;
+  bottom: 516px;
   background: black;
 }
 

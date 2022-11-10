@@ -1,7 +1,7 @@
 import React, { useRef } from 'react'
 import './ContactStyles.css'
-import { FloatingWhatsApp } from "react-floating-whatsapp";
 import emailjs from '@emailjs/browser';
+import WhatsappButton from "../whatsappButton/whatsappButton";
 
 const Contact = () => {
 
@@ -48,8 +48,8 @@ const Contact = () => {
                         </div>
                         <button type="submit" value="Send">Enviar</button>
                     </form>
-                    <FloatingWhatsApp phoneNumber="905366030997" />
                 </div>
+                <WhatsappButton />
             </div>
         </div>
     )

@@ -1,5 +1,6 @@
 import React from 'react';
 import './HeroStyles.css';
+import WhatsappButton from "../whatsappButton/whatsappButton";
 
 const Hero = () => {
   return (
@@ -19,6 +20,7 @@ const Hero = () => {
             <button className='btnGold'>Saiba mais</button>
           </div>
         </div>
+        <WhatsappButton />
       </div>
     </div>
   )
