@@ -1,6 +1,7 @@
 import React from 'react'
 import './CloudStyles.css'
 import WhatsappButton from "../whatsappButton/whatsappButton";
+import { Link } from 'react-router-dom';
 
 const Cloud = () => {
     return (
@@ -28,7 +29,11 @@ const Cloud = () => {
                             comunicação e solicite uma proposta amoldada a
                             sua necessidade.</strong>
                     </p>
-                    <div><button>Fale Conosco</button></div>
+                    <div>
+                        <Link to="/contact">
+                            <button>Fale Conosco</button>
+                        </Link>
+                    </div>
                 </div>
             </div>
             <WhatsappButton />

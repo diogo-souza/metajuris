@@ -1,6 +1,7 @@
 import React from 'react'
 import './RecoveryStyles.css'
 import WhatsappButton from "../whatsappButton/whatsappButton";
+import { Link } from 'react-router-dom';
 
 const Recovery = () => {
     return (
@@ -22,7 +23,9 @@ const Recovery = () => {
                         Acompanhamento Processual, favorecendo controles
                         de prazos e andamentos dos processos.</p>
                     <div>
-                        <button>Saiba mais</button>
+                        <Link to="/">
+                            <button>Saiba mais</button>
+                        </Link>
                     </div>
                 </div>
                 <WhatsappButton />

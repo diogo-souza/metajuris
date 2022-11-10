@@ -17,12 +17,14 @@ const Hero = () => {
             jurídicas de caráter preventivo e estratégias de
             atuação no Contencioso.</p>
           <div>
-            <button className='btnGold'>Saiba mais</button>
+            <a href="https://www.instagram.com/metajuris_/" target="_blank" rel="noreferrer">
+              <button className='btnGold'>Saiba mais</button>
+            </a>
           </div>
         </div>
         <WhatsappButton />
       </div>
-    </div>
+    </div >
   )
 }
 

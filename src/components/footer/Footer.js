@@ -32,7 +32,7 @@ const Footer = () => {
                             <img src={linkedinIcon} alt="database" className='social-icon' />
                         </a>
 
-                        <a href="https://www.instagram.com/metajuris_/" target="_blank" rel="noreferrer">
+                        <a href="https://api.whatsapp.com/send?phone=5581994084785&text=" target="_blank" rel="noreferrer">
                             <img src={whatsappIcon} alt="database" className='social-icon' />
                         </a>
 
