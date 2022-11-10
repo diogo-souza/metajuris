@@ -31,6 +31,8 @@
     align-items: center;
     height: 100%;
     color: #f8f8f8;
+    width: 1000px;
+    margin-left: 110px;
 }
 
 .contact form {
@@ -73,6 +75,7 @@ textarea:focus {
     .contact form {
         width: 100%;
     }
+
     .contact form {
         width: 200%;
         margin: -8rem;
@@ -80,10 +83,12 @@ textarea:focus {
         margin-top: 5%;
     }
 }
+
 @media screen and (max-width: 768px) {
     .contact form {
         width: 100%;
     }
+
     .contact form {
         width: 200%;
         margin: -8rem;
@@ -91,10 +96,12 @@ textarea:focus {
         margin-top: 5%;
     }
 }
+
 @media screen and (max-width: 940px) {
     .contact form {
         width: 100%;
     }
+
     .contact form {
         width: 200%;
         margin: -8rem;
@@ -102,10 +109,12 @@ textarea:focus {
         margin-top: 5%;
     }
 }
+
 @media screen and (max-width: 1280px) {
     .contact form {
         width: 100%;
     }
+
     .contact form {
         width: 200%;
         margin: -8rem;

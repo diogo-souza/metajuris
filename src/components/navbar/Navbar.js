@@ -23,7 +23,6 @@ const Navbar = () => {
                     <li><Link to='/cloud'>Proposta</Link></li>
                     <li><Link to='/recovery'>Estrutura e Endereço</Link> </li>
                     <li><Link to='/contact'>Contato</Link></li>
-                    <button>Sign in</button>
                 </ul>
                 <div className="hamburger" onClick={handleNav}>
                     {!nav ? (<img src={menuicon} alt="database" className='icon' />) : (<img src={menuicon} alt="database" className='icon' />)}

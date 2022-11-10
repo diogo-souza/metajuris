@@ -6,95 +6,58 @@ import direitoempresarial from '../../assets/direitoempresarial.jpeg'
 import processosadministrativos from '../../assets/processosadministrativos.jpg'
 import direitotrabalhista from '../../assets/direitotrabalhista.jpg'
 
-import direitocivillogo from '../../assets/direitocivil-logo.jpg'
-import direitobancarilogo from '../../assets/direitobancario-logo.jpg'
-import direitoempresariallogo from '../../assets/direitoempresarial-logo.jpeg'
-import processosadm from '../../assets/processosadm-logo.jpg'
-import direitotrabalhistalogo from '../../assets/direitotrabalhista-logo.jpg'
-
 const Cards = () => {
   return (
     <>
-      <div className='card'>
+      <div className='cards'>
         <div className="container">
-          <div className="content">
-            <h2><span className='spanSpecial'>Áreas de Atuação</span> </h2>
-            <div class="line-1"></div>
+          <h2 className='titleText'>ÁREAS DE ATUAÇÃO</h2>
 
-            <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
-            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" />
-
-            <div class="first cardFirst">
-              <img class="card-profile-img" src={direitocivil} alt="" />
-              <div class="card-description-bk"></div>
-              <div class="card-logo">
-                <img src={direitocivillogo} alt="" />
-              </div>
-              <div class="card-description">
-                <p>DIREITO CIVIL PREVENTIVO, CONSULTIVO E <p className='breakLine'>CONTENCIOSO</p></p>
-              </div>
-              <div class="card-btn">
-                <a href="https://metajuris.herokuapp.com/">Saiba mais</a>
+          <div className='containerThreeCards'>
+            <div className='card'>
+              <img className='imgDif' src={direitocivil} alt="Direito Civil"></img>
+              <div className='intro'>
+                <h1 className='h1Dif'>Direito Civil</h1>
+                <p className='pDif'>Ramo do <span className='spanDif'>direito</span>  que tem como objetivo determinar as regras e condutas que pessoas físicas e jurídicas devem ter em sociedade.</p>
               </div>
             </div>
 
-            <div class="second cardSecond">
-              <img class="card-profile-img" src={direitotrabalhista} alt="" />
-              <div class="card-description-bk"></div>
-              <div class="card-logo">
-                <img src={direitotrabalhistalogo} alt="" />
-              </div>
-              <div class="card-description">
-                <p>DIREITO TRABALHISTA CONSULTIVO E CON-<p className='breakLine'>TENCIOSO</p></p>
-              </div>
-              <div class="card-btn">
-                <a href="https://metajuris.herokuapp.com/">Saiba mais</a>
+            <div className='card'>
+              <img className='imgDif' src={direitobancario} alt="Direito Civil"></img>
+              <div className='intro'>
+                <h1 className='h1DifCard2'>Direito Bancário</h1>
+                <p className='pDif'>Ramo do <span className='spanDif'>direito</span>  que tem por objetivo determinar, regularizar e supervisionar as regras e normas para instituições bancárias e financeiras.</p>
               </div>
             </div>
 
-            <div class="third cardThird">
-              <img class="card-profile-img" src={direitoempresarial} alt="" />
-              <div class="card-description-bk"></div>
-              <div class="card-logo">
-                <img src={direitoempresariallogo} alt="" />
-              </div>
-              <div class="card-descriptionCard3">
-                <p>DIREITO EMPRESARIAL CONSULTIVO</p>
-              </div>
-              <div class="card-btn">
-                <a href="https://metajuris.herokuapp.com/">Saiba mais</a>
+
+            <div className='card'>
+              <img className='imgDif' src={direitoempresarial} alt="Direito Civil"></img>
+              <div className='intro'>
+                <h1 className='h1DifCard3'>Direito Empresarial</h1>
+                <p className='pDif'>Ramo do <span className='spanDif'>direito</span>  que tem como objetivo cuidar o exercício da atividade econômica organizada de fornecimento de bens ou serviços, a chamada empresa.</p>
               </div>
             </div>
-
-            <div class="fourth cardFourth">
-              <img class="card-profile-img" src={direitobancario} alt="" />
-              <div class="card-description-bk"></div>
-              <div class="card-logo">
-                <img src={direitobancarilogo} alt="" />
-              </div>
-              <div class="card-descriptionCard4">
-                <p>DIREITO BANCÁRIO</p>
-              </div>
-              <div class="card-btn">
-                <a href="https://metajuris.herokuapp.com/">Saiba mais</a>
-              </div>
-            </div>
-
-            <div class="fifth cardFifth">
-              <img class="card-profile-img" src={processosadministrativos} alt="" />
-              <div class="card-description-bk"></div>
-              <div class="card-logo">
-                <img src={processosadm} alt="" />
-              </div>
-              <div class="card-descriptionCard5">
-                <p>ACOMPANHAMENTO E ATUAÇÃO EM<p className='breakLineCard5'>PROCESSOS ADMINISTRATIVOS</p></p>
-              </div>
-              <div class="card-btn">
-                <a href="https://metajuris.herokuapp.com/">Saiba mais</a>
-              </div>
-            </div>
-
           </div>
+
+          <div className='containerLastCards'>
+            <div className='card'>
+              <img className='imgDif' src={direitotrabalhista} alt="Direito Civil"></img>
+              <div className='introLastCards'>
+                <h1 className='h1DifCard3'>Direito Trabalhista</h1>
+                <p className='pDif'>Ramo do <span className='spanDif'>direito</span>  que é responsável por regular a relação jurídica entre trabalhadores e empregadores, baseado nos princípios e leis trabalhistas.</p>
+              </div>
+            </div>
+
+            <div className='card'>
+              <img className='imgDif' src={processosadministrativos} alt="Direito Civil"></img>
+              <div className='introLastCards'>
+                <h1 className='h1DifCard5'>Processos Administrativos</h1>
+                <p className='pDif'><span className='spanDif'>Processo administrativo</span>  são atividades da Administração, interligadas entre si, que visa a alcançar determinado efeito final previsto em lei trata-se do modo como a Administração Pública toma suas decisões, seja por iniciativa de um particular, seja por iniciativa própria.</p>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </>
