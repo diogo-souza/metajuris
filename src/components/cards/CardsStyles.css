@@ -22,7 +22,7 @@
   position: absolute;
   background: rgb(27, 27, 27, .5);
   color: white;
-  bottom: 516px;
+  bottom: 484px;
   transition: .5s;
 }
 
@@ -85,7 +85,7 @@
   position: absolute;
   background: rgb(27, 27, 27, .5);
   color: white;
-  bottom: 158px;
+  bottom: 128px;
   transition: .5s;
 }
 

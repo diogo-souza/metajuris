@@ -38,7 +38,7 @@
     transition: all 0.5s;
 }
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
     .cloud .content {
         top: 230px;
         left: 0;
@@ -141,4 +141,4 @@
         width: 540px;
     }
 
-}
+} */
