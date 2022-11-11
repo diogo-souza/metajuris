@@ -1,4 +1,4 @@
-.imgDif {
+/* .imgDif {
   height: 300px;
   width: 300px;
   border-radius: 3px;
@@ -115,11 +115,11 @@
 
 .card:hover img {
   transform: scale(1.1) rotate(-3deg);
-}
+} */
 
 .cards {
   width: 100%;
-  height: 100vh;
+  height: 56vh;
   position: relative;
   background: rgba(0, 0, 0, .3);
   transition: all 0.5s;
@@ -135,7 +135,7 @@
   transition: all 0.5s;
 }
 
-.cards .content {
+/* .cards .content {
   position: absolute;
   left: 55%;
   top: 30%;
@@ -155,7 +155,7 @@
   text-align: justify;
   width: 570px;
   transition: all 0.5s;
-}
+} */
 
 /* @media screen and (max-width: 600px) {
   .cards .content {
@@ -261,3 +261,117 @@
   }
 
 } */
+
+.containerCards {
+  position: absolute;
+  height: 400px;
+  width: 720px;
+  top: 60px;
+  left: calc(50% - 300px);
+  display: flex;
+  margin-top: 57px;
+  margin-right: 20px;
+  margin-left: -30px;
+}
+
+.card {
+  display: flex;
+  height: 280px;
+  width: 200px;
+  background-color: #17141d;
+  border-radius: 10px;
+  box-shadow: -1rem 0 3rem #000;
+  /*   margin-left: -50px; */
+  transition: 0.4s ease-out;
+  position: relative;
+  left: 0px;
+}
+
+.card:not(:first-child) {
+  margin-left: -50px;
+}
+
+.card:hover {
+  transform: translateY(-20px);
+  transition: 0.4s ease-out;
+}
+
+.card:hover~.card {
+  position: relative;
+  left: 50px;
+  transition: 0.4s ease-out;
+}
+
+.title {
+  color: white;
+  font-weight: 300;
+  position: absolute;
+  left: 20px;
+  top: 15px;
+}
+
+.bar {
+  position: absolute;
+  top: 100px;
+  left: 20px;
+  height: 5px;
+  width: 132px;
+}
+
+.emptybar {
+  background-color: #2e3033;
+  width: 100%;
+  height: 100%;
+}
+
+.filledbar {
+  position: absolute;
+  top: 0px;
+  z-index: 3;
+  width: 0px;
+  height: 100%;
+  background: rgb(0, 154, 217);
+  background: linear-gradient(90deg, rgba(0, 154, 217, 1) 0%, rgba(217, 147, 0, 1) 65%, rgba(255, 186, 0, 1) 100%);
+  transition: 0.6s ease-out;
+}
+
+.card:hover .filledbar {
+  width: 120px;
+  transition: 0.4s ease-out;
+}
+
+.stroke {
+  stroke: white;
+  stroke-dasharray: 360;
+  stroke-dashoffset: 360;
+  transition: 0.6s ease-out;
+}
+
+svg {
+  fill: #17141d;
+  stroke-width: 2px;
+}
+
+.card:hover .stroke {
+  stroke-dashoffset: 100;
+  transition: 0.6s ease-out;
+}
+
+.imgDif {
+  height: 125px;
+  width: 129px;
+  border-radius: 3px;
+  transition: .5s;
+  margin-top: 136px;
+  margin-left: 27px;
+}
+
+.h1Dif {
+  font-size: 2.1rem;
+  color: white;
+  text-align: center;
+}
+
+.containerText {
+  padding: 27px;
+}
