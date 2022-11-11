@@ -6,8 +6,8 @@ import { Link } from 'react-router-dom';
 const Cloud = () => {
     return (
         <div className='cloud'>
-            <div className="container">
-                <div className="content">
+            <div className="containerProposta">
+                <div className="contentProposta">
                     <h2><span>PROPOSTA</span> </h2>
                     <p>Nossa missão é ofertar aos clientes um atendimento
                         ágil, com respostas imediatas às necessidades que

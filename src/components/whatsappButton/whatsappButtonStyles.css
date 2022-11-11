@@ -17,6 +17,7 @@
     animation-duration: 1.5s;
     animation-timing-function: ease-out;
     animation-iteration-count: infinite;
+    z-index: 10;
 }
 
 @keyframes pulse {
@@ -28,3 +29,7 @@
         box-shadow: 0 0 0 14px rgba(37, 211, 102, 0);
     }
 }
+
+/* @media screen and (max-width: 600px) {
+
+} */

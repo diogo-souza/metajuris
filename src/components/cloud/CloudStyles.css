@@ -1,3 +1,12 @@
+.containerProposta {
+    max-width: 1240px;
+    margin: auto;
+    margin-left: 78px;
+    height: 100%;
+    position: relative;
+    transition: all 0.5s;
+}
+
 .cloud {
     width: 100%;
     height: 100vh;
@@ -16,10 +25,14 @@
     transition: all 0.5s;
 }
 
-.cloud .content {
+.cloud .contentProposta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 65px;
+    color: white;
     position: absolute;
-    left: 55%;
-    top: 30%;
+    left: 690px;
     width: 50%;
     padding: 1rem;
     transition: all 0.5s;
@@ -37,6 +50,32 @@
     width: 570px;
     transition: all 0.5s;
 }
+
+@media screen and (max-width: 760px) {
+    .cloud .contentProposta {
+        left: 0;
+        width: 100%;
+        padding: 1rem;
+    }
+} 
+
+@media screen and (max-width: 940px) {
+    .cloud .contentProposta {
+        left: 250px;
+        width: 100%;
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .cloud .contentProposta {
+        margin-left: -180px;
+        margin-top: 50px;
+        width: 200px;
+        padding: 1rem;
+    }
+}
+
 
 /* @media screen and (max-width: 600px) {
     .cloud .content {
