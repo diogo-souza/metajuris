@@ -78,9 +78,10 @@
   .proposta p {
     color: #f8f8f8;
     text-align: justify;
-    width: 326px;
+    width: 313px;
     margin-top: 12px;
     font-size: 14px;
+    margin-left: -150px;
     transition: all 0.5s;
   }
 
@@ -89,6 +90,7 @@
     transition: all 0.5s;
     margin-top: 184px;
     font-size: 30px;
+    margin-left: -149px;
   }
 
   .proposta button {
@@ -102,6 +104,7 @@
     font-weight: 600;
     display: flex;
     border-radius: 4px;
+    margin-left: -151px;
     transition: all 0.5s;
   }
 }
