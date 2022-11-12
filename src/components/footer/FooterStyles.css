@@ -131,7 +131,7 @@
   cursor: pointer;
 }
 
-@media screen and (min-width: 350px) {
+@media screen and (min-width: 350px) and (max-width: 880px) {
   .footer h3 {
     margin: 1rem 0 2rem 0;
     text-transform: uppercase;
@@ -168,5 +168,42 @@
     transition: all 0.5s;
     margin-left: 124px;
     width: 328px;
+  }
+}
+
+@media screen and (min-width: 881px) and (max-width: 1280px) {
+}
+
+@media screen and (min-width: 1281px) and (max-width: 2000px) {
+  .endereco {
+    top: -17px;
+    position: relative;
+    transition: all 0.5s;
+    -webkit-user-select: none;
+    user-select: none;
+    margin-left: 80px;
+  }
+
+  .footer p {
+    margin: 0.5rem 0;
+    transition: all 0.5s;
+    margin-left: 381px;
+    width: 881px;
+  }
+
+  .footer h3 {
+    margin: 1rem 0 2rem 0;
+    text-transform: uppercase;
+    transition: all 0.5s;
+    margin-left: 4px;
+  }
+
+  .footer .top {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    transition: all 0.5s;
+    margin-left: -9px;
   }
 }

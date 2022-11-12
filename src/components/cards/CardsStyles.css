@@ -381,7 +381,7 @@ svg {
   padding: 27px;
 }
 
-@media screen and (min-width: 350px) {
+@media screen and (min-width: 350px) and (max-width: 880px) {
   .containerCards {
     position: absolute;
     height: 414px;
@@ -447,4 +447,7 @@ svg {
     color: white;
     text-align: center;
   }
+}
+
+@media screen and (min-width: 881px) and (max-width: 1280px) {
 }

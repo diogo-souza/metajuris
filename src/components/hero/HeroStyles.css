@@ -55,7 +55,7 @@
   transition: all 0.5s;
 }
 
-@media screen and (min-width: 350px) {
+@media screen and (min-width: 350px) and (max-width: 880px) {
   .hero .content {
     left: 0;
     width: 100%;
@@ -68,6 +68,13 @@
     text-align: justify;
     width: 322px;
     transition: all 0.5s;
+  }
+}
+
+@media screen and (min-width: 881px) and (max-width: 1280px) {
+  .hero .content p {
+    text-align: justify;
+    width: 635px;
   }
 }
 

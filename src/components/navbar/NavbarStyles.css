@@ -102,8 +102,7 @@
   transition: all 0.5s;
 }
 
-/* Tamanho 1 de telas de celulares HD e Full HD */
-@media screen and (min-width: 350px) {
+@media screen and (min-width: 350px) and (max-width: 880px) {
   .mainTitle {
     position: relative;
     left: 65px;
@@ -174,5 +173,11 @@
     margin: -15px;
     transition: all 0.5s;
     margin-top: -40px;
+  }
+}
+
+@media screen and (min-width: 881px) and (max-width: 1280px) {
+  .navbar li {
+    margin-right: 0.5rem;
   }
 }
