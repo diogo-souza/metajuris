@@ -31,7 +31,7 @@
   margin: 1rem 0;
 }
 
-@media screen and (min-width: 350px) {
+@media screen and (min-width: 350px) and (max-width: 880px) {
   .recovery .content {
     width: 320px;
     margin-left: -2px;
@@ -43,4 +43,7 @@
     margin: 1rem 0;
     font-size: 15px;
   }
+}
+
+@media screen and (min-width: 881px) and (max-width: 1280px) {
 }

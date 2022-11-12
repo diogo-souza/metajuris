@@ -1,4 +1,4 @@
-.containerProposta {
+.containerPropostaTela {
   max-width: 1240px;
   margin: auto;
   margin-left: 78px;
@@ -26,7 +26,7 @@
   transition: all 0.5s;
 }
 
-.proposta .contentProposta {
+.proposta .contentPropostaTela {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -52,7 +52,7 @@
   transition: all 0.5s;
 }
 
-@media screen and (min-width: 350px) {
+@media screen and (min-width: 350px) and (max-width: 880px) {
   .containerProposta {
     max-width: 1240px;
     margin: auto;
@@ -62,7 +62,7 @@
     transition: all 0.5s;
   }
 
-  .proposta .contentProposta {
+  .proposta .contentPropostaTela {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -106,107 +106,27 @@
   }
 }
 
-/* @media screen and (max-width: 600px) {
-      .cloud .content {
-          top: 230px;
-          left: 0;
-          width: 100%;
-      }
-  
-      .cloud h2 {
-          position: absolute;
-          top: -25px;
-          color: #f8f8f8;
-      }
-      
-      .cloud p {
-          color: #f8f8f8;
-          text-align: justify;
-          width: 540px;
-      }
-  
+@media screen and (min-width: 881px) and (max-width: 1280px) {
+  .proposta p {
+    color: #f8f8f8;
+    text-align: justify;
+    width: 569px;
+    margin-left: -378px;
+    margin-top: 10px;
   }
-  
-  @media screen and (max-width: 768px) {
-      .cloud .content {
-          top: 230px;
-          left: 0;
-          width: 100%;
-      }
-  
-      .cloud h2 {
-          position: absolute;
-          top: -25px;
-          color: #f8f8f8;
-      }
-      
-      .cloud p {
-          color: #f8f8f8;
-          text-align: justify;
-          width: 540px;
-      }
-  
+
+  .proposta h2 {
+    color: #f8f8f8;
+    transition: all 0.5s;
+    margin-top: 26px;
+    margin-left: -378px;
   }
-  
-  @media screen and (max-width: 940px) {
-      .cloud .content {
-          top: 230px;
-          left: 0;
-          width: 100%;
-      }
-  
-      .cloud h2 {
-          position: absolute;
-          top: -25px;
-          color: #f8f8f8;
-      }
-      
-      .cloud p {
-          color: #f8f8f8;
-          text-align: justify;
-          width: 540px;
-      }
-  
+
+  .proposta .contentPropostaTela {
+    width: 230px;
   }
-  
-  @media screen and (max-width: 1280px) {
-      .cloud .content {
-          top: 230px;
-          left: 0;
-          width: 100%;
-      }
-  
-      .cloud h2 {
-          position: absolute;
-          top: -25px;
-          color: #f8f8f8;
-      }
-      
-      .cloud p {
-          color: #f8f8f8;
-          text-align: justify;
-          width: 540px;
-      }
-  
+
+  .proposta button {
+    margin-left: -145px;
   }
-  
-  @media screen and (max-width: 1920px) {
-      .cloud .content {
-          top: 230px;
-          left: 0;
-          width: 100%;
-      }
-  
-      .cloud h2 {
-          position: absolute;
-          top: -25px;
-          color: #f8f8f8;
-      }
-      
-      .cloud p {
-          color: #f8f8f8;
-          text-align: justify;
-          width: 540px;
-      }
-  
-  } */
+}
