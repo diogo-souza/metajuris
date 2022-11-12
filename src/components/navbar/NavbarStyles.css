@@ -1,381 +1,168 @@
 @font-face {
-    font-family: MuseoSlab;
-    src: url('../../fonts/Museo_Slab_300.otf');
+  font-family: MuseoSlab;
+  src: url("../../fonts/Museo_Slab_300.otf");
 }
 
 @font-face {
-    font-family: GamberoThin;
-    src: url('../../fonts/Gambero_Thin.otf');
+  font-family: GamberoThin;
+  src: url("../../fonts/Gambero_Thin.otf");
 }
 
 .navbar {
-    width: 100%;
-    height: 100px;
-    position: absolute;
-    z-index: 10;
-    transition: all 0.5s;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  z-index: 10;
+  transition: all 0.5s;
 }
 
 .navbar .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    transition: all 0.5s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.5s;
 }
 
 .navbar .logo {
-    display: flex;
-    align-items: center;
-    color: #fff;
-    margin: 1rem;
-    transition: all 0.5s;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  margin: 1rem;
+  transition: all 0.5s;
 }
 
 .mainTitle {
-    position: relative;
-    left: 90px;
-    color: #dfac1c;
-    font-family: MuseoSlab;
-    font-weight: 100;
-    font-size: 50px;
-    transition: all 0.5s;
+  position: relative;
+  left: 90px;
+  color: #dfac1c;
+  font-family: MuseoSlab;
+  font-weight: 100;
+  font-size: 50px;
+  transition: all 0.5s;
 }
 
 .mainSubtitle {
+  width: 300px;
+  margin-left: -265px;
+  margin-top: 145px;
+  position: relative;
+  color: #dfac1c;
+  font-family: GamberoThin;
+  font-weight: 100;
+  font-size: 15px;
+  transition: all 0.5s;
+}
+
+.mainLine {
+  height: 2px;
+  background: #dfac1c;
+  width: 320px;
+  margin-left: -220px;
+  margin-top: 85px;
+  position: relative;
+  transition: all 0.5s;
+}
+
+.navbar .logo .icon {
+  font-size: 3rem;
+  margin-right: 1rem;
+  color: var(--primary-color);
+  transition: all 0.5s;
+}
+
+.hamburger {
+  display: none;
+  padding: 1rem;
+  transition: all 0.5s;
+}
+
+.navbar .nav-menu {
+  height: 100%;
+  align-items: center;
+  display: flex;
+  padding: 1rem;
+  transition: all 0.5s;
+}
+
+.navbar li {
+  padding: 1rem;
+  font-weight: 600;
+  color: #fff;
+  transition: all 0.5s;
+}
+
+.navbar .icon {
+  position: absolute;
+  font-size: 1.4rem;
+  color: #fff;
+  height: 55px;
+  width: 55px;
+  right: 38px;
+  top: 20px;
+  transition: all 0.5s;
+}
+
+/* Tamanho 1 de telas de celulares HD e Full HD */
+@media screen and (min-width: 350px) {
+  .mainTitle {
+    position: relative;
+    left: 38px;
+    color: #dfac1c;
+    font-family: MuseoSlab;
+    font-weight: 100;
+    font-size: 40px;
+    top: 52px;
+  }
+
+  .mainLine {
+    height: 1px;
+    background: #dfac1c;
+    margin-left: -233px;
+    margin-top: 146px;
+    position: relative;
+    transition: all 0.5s;
+  }
+
+  .mainSubtitle {
     width: 300px;
-    margin-left: -265px;
-    margin-top: 145px;
+    margin-left: -275px;
+    margin-top: 176px;
     position: relative;
     color: #dfac1c;
     font-family: GamberoThin;
     font-weight: 100;
     font-size: 15px;
     transition: all 0.5s;
-}
+  }
 
-.mainLine {
-    height: 2px;
-    background: #dfac1c;
-    width: 320px;
-    margin-left: -220px;
-    margin-top: 85px;
-    position: relative;
-    transition: all 0.5s;
-}
+  .navbar .hamburger {
+    display: block;
+    z-index: 15;
+  }
 
-.navbar .logo .icon {
-    font-size: 3rem;
-    margin-right: 1rem;
-    color: var(--primary-color);
-    transition: all 0.5s;
-}
-
-.hamburger {
-    display: none;
-    padding: 1rem;
-    transition: all 0.5s;
-}
-
-.navbar .nav-menu {
-    height: 100%;
-    align-items: center;
-    display: flex;
-    padding: 1rem;
-    transition: all 0.5s;
-}
-
-.navbar li {
-    padding: 1rem;
-    font-weight: 600;
-    color: #fff;
-    transition: all 0.5s;
-}
-
-.navbar .icon {
+  .navbar .nav-menu {
     position: absolute;
-    font-size: 1.4rem;
-    color: #fff;
-    height: 55px;
-    width: 55px;
-    right: 38px;
-    top: 20px;
-    transition: all 0.5s;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: -100%;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.8);
+    transition: 0.5s ease-in;
+  }
+
+  .navbar .active {
+    left: 0;
+  }
+
+  .navbar li {
+    margin-right: 1rem;
+    font-size: 2rem;
+  }
+
+  .navbar button {
+    font-size: 1.8rem;
+  }
 }
-
-@media screen and (max-width: 600px) {
-    /* .navbar .icon {
-        left: 0;
-    } */
-
-    .navbar .hamburger {
-        display: block;
-        z-index: 15;
-    }
-
-    .navbar .nav-menu {
-        position: absolute;
-        flex-direction: column;
-        width: 100%;
-        height: 100vh;
-        top: 0;
-        left: -100%;
-        align-items: center;
-        justify-content: center;
-        background: rgba(0, 0, 0, .8);
-        transition: 0.5s ease-in;
-    }
-
-    .navbar .active {
-        left: 0;
-    }
-
-    .navbar li {
-        margin-right: 1rem;
-        font-size: 2rem;
-    }
-
-    .navbar button {
-        font-size: 1.8rem;
-    }
-
-    .mainTitle {
-        position: relative;
-        left: 130px;
-        color: #dfac1c;
-        font-family: MuseoSlab;
-        font-weight: 100;
-        font-size: 50px;
-    }
-
-    .mainLine {
-        height: 2px;
-        background: #dfac1c;
-        width: 320px;
-        margin-left: -180px;
-        margin-top: 85px;
-        position: relative;
-    }
-
-}
-
-@media screen and (max-width: 768px) {
-    /* .navbar .icon {
-        left: 0;
-    } */
-
-    .navbar .hamburger {
-        display: block;
-        z-index: 15;
-    }
-
-    .navbar .nav-menu {
-        position: absolute;
-        flex-direction: column;
-        width: 100%;
-        height: 100vh;
-        top: 0;
-        left: -100%;
-        align-items: center;
-        justify-content: center;
-        background: rgba(0, 0, 0, .8);
-        transition: 0.5s ease-in;
-    }
-
-    .navbar .active {
-        left: 0;
-    }
-
-    .navbar li {
-        margin-right: 1rem;
-        font-size: 2rem;
-    }
-
-    .navbar button {
-        font-size: 1.8rem;
-    }
-
-    .mainTitle {
-        position: relative;
-        left: 130px;
-        color: #dfac1c;
-        font-family: MuseoSlab;
-        font-weight: 100;
-        font-size: 50px;
-    }
-
-    .mainLine {
-        height: 2px;
-        background: #dfac1c;
-        width: 320px;
-        margin-left: -180px;
-        margin-top: 85px;
-        position: relative;
-    }
-
-}
-
-@media screen and (max-width: 940px) {
-    /* .navbar .icon {
-        left: 0;
-    } */
-
-    .navbar .hamburger {
-        display: block;
-        z-index: 15;
-    }
-
-    .navbar .nav-menu {
-        position: absolute;
-        flex-direction: column;
-        width: 100%;
-        height: 100vh;
-        top: 0;
-        left: -100%;
-        align-items: center;
-        justify-content: center;
-        background: rgba(0, 0, 0, .8);
-        transition: 0.5s ease-in;
-    }
-
-    .navbar .active {
-        left: 0;
-    }
-
-    .navbar li {
-        margin-right: 1rem;
-        font-size: 2rem;
-    }
-
-    .navbar button {
-        font-size: 1.8rem;
-    }
-
-    .mainTitle {
-        position: relative;
-        left: 130px;
-        color: #dfac1c;
-        font-family: MuseoSlab;
-        font-weight: 100;
-        font-size: 50px;
-    }
-
-    .mainLine {
-        height: 2px;
-        background: #dfac1c;
-        width: 320px;
-        margin-left: -180px;
-        margin-top: 85px;
-        position: relative;
-    }
-
-}
-
-@media screen and (max-width: 1280px) {
-    /* .navbar .icon {
-        left: 0;
-    } */
-
-    .navbar .hamburger {
-        display: block;
-        z-index: 15;
-    }
-
-    .navbar .nav-menu {
-        position: absolute;
-        flex-direction: column;
-        width: 100%;
-        height: 100vh;
-        top: 0;
-        left: -100%;
-        align-items: center;
-        justify-content: center;
-        background: rgba(0, 0, 0, .8);
-        transition: 0.5s ease-in;
-    }
-
-    .navbar .active {
-        left: 0;
-    }
-
-    .navbar li {
-        margin-right: 1rem;
-        font-size: 2rem;
-    }
-
-    .navbar button {
-        font-size: 1.8rem;
-    }
-
-    .mainTitle {
-        position: relative;
-        left: 130px;
-        color: #dfac1c;
-        font-family: MuseoSlab;
-        font-weight: 100;
-        font-size: 50px;
-    }
-
-    .mainLine {
-        height: 2px;
-        background: #dfac1c;
-        width: 320px;
-        margin-left: -180px;
-        margin-top: 85px;
-        position: relative;
-    }
-
-}
-
-/* @media screen and (max-width: 1920px) {
-
-    .navbar .hamburger {
-        display: block;
-        z-index: 15;
-    }
-
-    .navbar .nav-menu {
-        position: absolute;
-        flex-direction: column;
-        width: 100%;
-        height: 100vh;
-        top: 0;
-        left: -100%;
-        align-items: center;
-        justify-content: center;
-        background: rgba(0, 0, 0, .8);
-        transition: 0.5s ease-in;
-    }
-
-    .navbar .active {
-        left: 0;
-    }
-
-    .navbar li {
-        margin-right: 1rem;
-        font-size: 2rem;
-    }
-
-    .navbar button {
-        font-size: 1.8rem;
-    }
-
-    .mainTitle {
-        position: relative;
-        left: 130px;
-        color: #dfac1c;
-        font-family: MuseoSlab;
-        font-weight: 100;
-        font-size: 50px;
-    }
-
-    .mainLine {
-        height: 2px;
-        background: #dfac1c;
-        width: 320px;
-        margin-left: -180px;
-        margin-top: 85px;
-        position: relative;
-    }
-
-} 
-*/
