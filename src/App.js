@@ -16,5 +16,5 @@ function App() {
     </>
   );
 }
-//ad
+
 export default App;
