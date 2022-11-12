@@ -437,4 +437,14 @@ svg {
     left: 13px;
     top: 15px;
   }
+
+  .containerText {
+    padding: 49px;
+  }
+
+  .h1Dif {
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+  }
 }
