@@ -77,10 +77,18 @@
 
   .proposta p {
     color: #f8f8f8;
-    margin: 1rem 0;
     text-align: justify;
     width: 326px;
+    margin-top: 12px;
+    font-size: 14px;
     transition: all 0.5s;
+  }
+
+  .proposta h2 {
+    color: #f8f8f8;
+    transition: all 0.5s;
+    margin-top: 243px;
+    font-size: 30px;
   }
 
   .proposta button {
@@ -95,7 +103,6 @@
     display: flex;
     border-radius: 4px;
     transition: all 0.5s;
-    visibility: hidden;
   }
 }
 

@@ -83,6 +83,7 @@
     text-align: justify;
     width: 326px;
     transition: all 0.5s;
+    font-size: 17px;
   }
 
   .cloud button {
