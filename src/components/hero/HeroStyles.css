@@ -1,32 +1,33 @@
 .hero {
-    width: 100%;
-    height: 100vh;
-    position: relative;
-    background: rgba(0, 0, 0, .1);
-    transition: all 0.5s;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background: rgba(0, 0, 0, 0.1);
+  transition: all 0.5s;
 }
 
 .hero:before {
-    content: '';
-    position: absolute;
-    background: url('../../assets/justicebackground.png') no-repeat center center/cover;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-    transition: all 0.5s;
+  content: "";
+  position: absolute;
+  background: url("../../assets/justicebackground.png") no-repeat center
+    center/cover;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  transition: all 0.5s;
 }
 
 .hero .content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    top: 30%;
-    color: white;
-    position: absolute;
-    left: 6%;
-    width: 50%;
-    padding: 1rem;
-    transition: all 0.5s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  top: 30%;
+  color: white;
+  position: absolute;
+  left: 6%;
+  width: 50%;
+  padding: 1rem;
+  transition: all 0.5s;
 }
 
 /*.hero .content {
@@ -42,32 +43,32 @@
 }*/
 
 .hero .content p {
-    margin: 1rem 0;
-    color: white;
-    text-align: justify;
-    width: 540px;
-    transition: all 0.5s;
+  margin: 1rem 0;
+  color: white;
+  text-align: justify;
+  width: 540px;
+  transition: all 0.5s;
 }
 
 .spanGold {
-    color: #dfac1c;
-    transition: all 0.5s;
+  color: #dfac1c;
+  transition: all 0.5s;
 }
 
 @media screen and (min-width: 350px) {
-    .hero .content {
-        left: 0;
-        width: 100%;
-        padding: 1rem;
-    }
+  .hero .content {
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+  }
 
-    .hero .content p {
-        margin: 1rem 0;
+  .hero .content p {
+    margin: 1rem 0;
     color: white;
     text-align: justify;
     width: 332px;
     transition: all 0.5s;
-    }
+  }
 }
 
 /* @media screen and (max-width: 768px) {
