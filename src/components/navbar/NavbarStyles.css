@@ -111,14 +111,14 @@
     font-family: MuseoSlab;
     font-weight: 100;
     font-size: 40px;
-    top: 52px;
+    top: 62px;
   }
 
   .mainLine {
     height: 1px;
     background: #dfac1c;
     margin-left: -233px;
-    margin-top: 146px;
+    margin-top: 166px;
     position: relative;
     transition: all 0.5s;
   }
@@ -126,7 +126,7 @@
   .mainSubtitle {
     width: 300px;
     margin-left: -275px;
-    margin-top: 176px;
+    margin-top: 198px;
     position: relative;
     color: #dfac1c;
     font-family: GamberoThin;
@@ -159,7 +159,7 @@
 
   .navbar li {
     margin-right: 1rem;
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   .navbar button {
