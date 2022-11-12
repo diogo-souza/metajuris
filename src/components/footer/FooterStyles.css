@@ -59,6 +59,7 @@
     top: 40px;
     position: relative;
     transition: all 0.5s;
+    user-select: none;
 }
 
 .footer .col-container {
@@ -79,8 +80,8 @@
 .footer p {
     margin: 0.5rem 0;
     transition: all 0.5s;
-    margin-left: 10px;
-    width: 660px;
+    margin-left: 124px;
+    width: 860px;
 }
 
 .footer form {
@@ -198,6 +199,13 @@
         cursor: pointer;
         height: 70px;
         margin-right: auto;
+    }
+
+    .footer p {
+        margin: 0.5rem 0;
+        transition: all 0.5s;
+        margin-left: 9px;
+        width: 664px;
     }
 }
 
