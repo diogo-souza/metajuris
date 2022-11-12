@@ -54,15 +54,23 @@
     transition: all 0.5s;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 350px) {
     .hero .content {
         left: 0;
         width: 100%;
         padding: 1rem;
     }
+
+    .hero .content p {
+        margin: 1rem 0;
+    color: white;
+    text-align: justify;
+    width: 332px;
+    transition: all 0.5s;
+    }
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     .hero .content {
         left: 0;
         width: 100%;
@@ -92,4 +100,4 @@
         width: 100%;
         padding: 1rem;
     }
-}
+} */
