@@ -1,10 +1,10 @@
 import React from 'react'
 
 import Navbar from '../components/navbar/Navbar'
-import Cloud from '../components/cloud/Cloud'
+import Cloud from '../components/proposta/Proposta'
 import Footer from '../components/footer/Footer'
 
-const CloudPage = () => {
+const PropostaPage = () => {
     return (
         <>
            <Navbar /> 
@@ -14,4 +14,4 @@ const CloudPage = () => {
     )
 }
 
-export default CloudPage
+export default PropostaPage

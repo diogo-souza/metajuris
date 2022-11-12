@@ -20,7 +20,7 @@ const Navbar = () => {
 
                 <ul className={nav ? 'nav-menu active' : 'nav-menu'}>
                     <li><Link to='/'>Quem somos?</Link></li>
-                    <li><Link to='/cloud'>Proposta</Link></li>
+                    <li><Link to='/proposta'>Proposta</Link></li>
                     <li><Link to='/recovery'>Estrutura e Endereço</Link> </li>
                     <li><Link to='/contact'>Contato</Link></li>
                 </ul>
