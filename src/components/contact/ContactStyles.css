@@ -70,7 +70,7 @@ textarea:focus {
   box-shadow: 0 0 12px 0 var(--primary-color);
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (min-width: 350px) {
   .contact .container .form-container {
     display: flex;
     justify-content: center;
