@@ -1,317 +1,172 @@
 .footer {
-    z-index: -1;
-    width: 100%;
-    height: 45vh;
-    position: relative;
-    background: rgba(255, 255, 255, 0.7);
-    transition: all 0.5s;
+  z-index: -1;
+  width: 100%;
+  height: 45vh;
+  position: relative;
+  background: rgba(255, 255, 255, 0.7);
+  transition: all 0.5s;
 }
 
 .footer:before {
-    content: '';
-    position: absolute;
-    background: url('../../assets/footer-bg.jpg')no-repeat center center/cover;
-    height: 95%;
-    width: 100%;
-    z-index: -1;
-    transition: all 0.5s;
+  content: "";
+  position: absolute;
+  background: url("../../assets/footer-bg.jpg") no-repeat center center/cover;
+  height: 95%;
+  width: 100%;
+  z-index: -1;
+  transition: all 0.5s;
 }
 
 .footer .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.5s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s;
 }
 
 .footer .top {
-    width: 100%;
-    padding: 1rem;
-    display: flex;
-    justify-content: space-between;
-    transition: all 0.5s;
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  transition: all 0.5s;
 }
 
 .footer .top .logo-footer {
-    display: flex;
-    align-items: center;
-    transition: all 0.5s;
-    margin-left: -4px;
+  display: flex;
+  align-items: center;
+  transition: all 0.5s;
+  margin-left: -4px;
 }
 
 .footer .top .icon {
-    font-size: 3rem;
-    margin-right: 1rem;
-    color: var(--primary-color);
-    cursor: pointer;
-    height: 65px;
-    width: 65px;
-    transition: all 0.5s;
+  font-size: 3rem;
+  margin-right: 1rem;
+  color: var(--primary-color);
+  cursor: pointer;
+  height: 65px;
+  width: 65px;
+  transition: all 0.5s;
 }
 
 .footer h2 {
-    font-size: 2rem;
-    transition: all 0.5s;
+  font-size: 2rem;
+  transition: all 0.5s;
 }
 
 .endereco {
-    top: 40px;
-    position: relative;
-    transition: all 0.5s;
-    user-select: none;
+  top: 40px;
+  position: relative;
+  transition: all 0.5s;
+  user-select: none;
 }
 
 .footer .col-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
-    padding: 1rem;
-    width: 100%;
-    transition: all 0.5s;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
+  padding: 1rem;
+  width: 100%;
+  transition: all 0.5s;
 }
 
 .footer h3 {
-    margin: 1rem 0 2rem 0;
-    text-transform: uppercase;
-    transition: all 0.5s;
+  margin: 1rem 0 2rem 0;
+  text-transform: uppercase;
+  transition: all 0.5s;
 }
 
-
 .footer p {
-    margin: 0.5rem 0;
-    transition: all 0.5s;
-    margin-left: 124px;
-    width: 860px;
+  margin: 0.5rem 0;
+  transition: all 0.5s;
+  margin-left: 124px;
+  width: 860px;
 }
 
 .footer form {
-    width: 100%;
-    margin-bottom: .6rem;
-    position: relative;
-    transition: all 0.5s;
+  width: 100%;
+  margin-bottom: 0.6rem;
+  position: relative;
+  transition: all 0.5s;
 }
 
 .footer form input {
+  padding: 1rem;
+  width: 100%;
+  outline: none;
+  font-size: 1rem;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  color: #333;
+  transition: all 0.5s;
+}
+
+.footer form input:focus {
+  color: #333;
+  outline: var(--primary-color);
+  box-shadow: 0 0 8px 0 var(--primary-dark);
+  transition: all 0.5s;
+}
+
+.footer form .mail-icon {
+  position: absolute;
+  font-size: 1.4rem;
+  margin: -0.5rem;
+  right: 0.2rem;
+  color: #aaa;
+  cursor: pointer;
+  height: 70px;
+  margin-right: auto;
+  transition: all 0.5s;
+}
+
+.footer form .social-icon {
+  margin: 1rem 1rem 1rem 0;
+  padding: 0.6rem;
+  background-color: var(--primary-dark);
+  border-radius: 4px;
+  height: 50px;
+  font-size: 3rem;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 350px) {
+  .footer h3 {
+    margin: 1rem 0 2rem 0;
+    text-transform: uppercase;
+    transition: all 0.5s;
+    margin-left: 11px;
+  }
+
+  .footer form input {
     padding: 1rem;
-    width: 100%;
+    width: 336px;
     outline: none;
     font-size: 1rem;
     border: 1px solid #aaa;
     border-radius: 4px;
     color: #333;
+    margin-left: 11px;
+  }
+
+  .socialGroup {
+    margin-left: 11px;
+  }
+
+  .endereco {
+    top: -17px;
+    position: relative;
     transition: all 0.5s;
-}
+    -webkit-user-select: none;
+    user-select: none;
+    margin-left: -116px;
+  }
 
-.footer form input:focus {
-    color: #333;
-    outline: var(--primary-color);
-    box-shadow: 0 0 8px 0 var(--primary-dark);
+  .footer p {
+    margin: 0.5rem 0;
     transition: all 0.5s;
-}
-
-.footer form .mail-icon {
-    position: absolute;
-    font-size: 1.4rem;
-    margin: -0.5rem;
-    right: 0.2rem;
-    color: #aaa;
-    cursor: pointer;
-    height: 70px;
-    margin-right: auto;
-    transition: all 0.5s;
-}
-
-.footer form .social-icon {
-    margin: 1rem 1rem 1rem 0;
-    padding: .6rem;
-    background-color: var(--primary-dark);
-    border-radius: 4px;
-    height: 50px;
-    font-size: 3rem;
-    transition: all 0.5s;
-    cursor: pointer;
-}
-
-@media screen and (max-width: 600px) {
-    .footer {
-        height: 100%;
-    }
-
-    .footer .col-container {
-        grid-template-columns: 2fr 2fr;
-    }
-
-    .footer form {
-        grid-column: 1 / span 2;
-    }
-
-    .footer form input {
-        padding: 1rem;
-        width: 95%;
-        outline: none;
-        font-size: 1rem;
-        border: 1px solid #aaa;
-        border-radius: 4px;
-        color: #333;
-    }
-
-    .footer form .mail-icon {
-        position: absolute;
-        font-size: 1.4rem;
-        margin: -0.5rem;
-        right: 1.9rem;
-        color: #aaa;
-        cursor: pointer;
-        height: 70px;
-        margin-right: auto;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .footer {
-        height: 100%;
-    }
-
-    .footer .col-container {
-        grid-template-columns: 2fr 2fr;
-    }
-
-    .footer form {
-        grid-column: 1 / span 2;
-    }
-
-    .footer form input {
-        padding: 1rem;
-        width: 95%;
-        outline: none;
-        font-size: 1rem;
-        border: 1px solid #aaa;
-        border-radius: 4px;
-        color: #333;
-    }
-
-    .footer form .mail-icon {
-        position: absolute;
-        font-size: 1.4rem;
-        margin: -0.5rem;
-        right: 3.9rem;
-        color: #aaa;
-        cursor: pointer;
-        height: 70px;
-        margin-right: auto;
-    }
-
-    .footer p {
-        margin: 0.5rem 0;
-        transition: all 0.5s;
-        margin-left: 9px;
-        width: 664px;
-    }
-}
-
-@media screen and (max-width: 940px) {
-    .footer {
-        height: 100%;
-    }
-
-    .footer .col-container {
-        grid-template-columns: 2fr 2fr;
-    }
-
-    .footer form {
-        grid-column: 1 / span 2;
-    }
-
-    .footer form input {
-        padding: 1rem;
-        width: 95%;
-        outline: none;
-        font-size: 1rem;
-        border: 1px solid #aaa;
-        border-radius: 4px;
-        color: #333;
-    }
-
-    .footer form .mail-icon {
-        position: absolute;
-        font-size: 1.4rem;
-        margin: -0.5rem;
-        right: 3.9rem;
-        color: #aaa;
-        cursor: pointer;
-        height: 70px;
-        margin-right: auto;
-    }
-}
-
-@media screen and (max-width: 1280px) {
-    .footer {
-        height: 100%;
-    }
-
-    .footer .col-container {
-        grid-template-columns: 2fr 2fr;
-    }
-
-    .footer form {
-        grid-column: 1 / span 2;
-    }
-
-    .footer form input {
-        padding: 1rem;
-        width: 95%;
-        outline: none;
-        font-size: 1rem;
-        border: 1px solid #aaa;
-        border-radius: 4px;
-        color: #333;
-    }
-
-    .footer form .mail-icon {
-        position: absolute;
-        font-size: 1.4rem;
-        margin: -0.5rem;
-        right: 3.9rem;
-        color: #aaa;
-        cursor: pointer;
-        height: 70px;
-        margin-right: auto;
-    }
-}
-
-@media screen and (max-width: 1920px) {
-    .footer {
-        height: 100%;
-    }
-
-    .footer .col-container {
-        grid-template-columns: 2fr 2fr;
-    }
-
-    .footer form {
-        grid-column: 1 / span 2;
-        margin-left: -15px;
-        width: 95%;
-    }
-
-    .footer form input {
-        padding: 1rem;
-        width: 95%;
-        outline: none;
-        font-size: 1rem;
-        border: 1px solid #aaa;
-        border-radius: 4px;
-        color: #333;
-    }
-
-    .footer form .mail-icon {
-        position: absolute;
-        font-size: 1.4rem;
-        margin: -0.5rem;
-        right: 3.8rem;
-        color: #aaa;
-        cursor: pointer;
-        height: 70px;
-        margin-right: auto;
-    }
+    margin-left: 124px;
+    width: 328px;
+  }
 }

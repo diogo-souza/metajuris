@@ -106,7 +106,7 @@
 @media screen and (min-width: 350px) {
   .mainTitle {
     position: relative;
-    left: 38px;
+    left: 65px;
     color: #dfac1c;
     font-family: MuseoSlab;
     font-weight: 100;
@@ -117,15 +117,16 @@
   .mainLine {
     height: 1px;
     background: #dfac1c;
-    margin-left: -233px;
+    left: 43px;
     margin-top: 166px;
     position: relative;
+    width: 250px;
     transition: all 0.5s;
   }
 
   .mainSubtitle {
-    width: 300px;
-    margin-left: -275px;
+    width: 272px;
+    margin-left: -190px;
     margin-top: 198px;
     position: relative;
     color: #dfac1c;
@@ -164,5 +165,13 @@
 
   .navbar button {
     font-size: 1.8rem;
+  }
+
+  .navbar .logo {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    margin: -15px;
+    transition: all 0.5s;
   }
 }

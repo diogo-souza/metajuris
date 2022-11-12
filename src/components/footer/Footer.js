@@ -1,9 +1,7 @@
 import React from 'react'
 import emailIcon from '../../assets/email.png'
-import facebookIcon from '../../assets/facebook.png'
 import whatsappIcon from '../../assets/whatsappBlue.png'
 import instagramIcon from '../../assets/instagram.png'
-import linkedinIcon from '../../assets/linkedin.png'
 import './FooterStyles.css'
 
 const Footer = () => {
@@ -23,14 +21,7 @@ const Footer = () => {
                         <img src={emailIcon} alt="database" className='mail-icon' />
                     </a>
 
-                    <div className="social-group">
-                        <a href="https://www.instagram.com/metajuris_/" target="_blank" rel="noreferrer">
-                            <img src={facebookIcon} alt="database" className='social-icon' />
-                        </a>
-
-                        <a href="https://www.instagram.com/metajuris_/" target="_blank" rel="noreferrer">
-                            <img src={linkedinIcon} alt="database" className='social-icon' />
-                        </a>
+                    <div className="socialGroup">
 
                         <a href="https://api.whatsapp.com/send?phone=5581994084785&text=" target="_blank" rel="noreferrer">
                             <img src={whatsappIcon} alt="database" className='social-icon' />

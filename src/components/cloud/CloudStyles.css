@@ -1,81 +1,88 @@
 .containerProposta {
-    max-width: 1240px;
-    margin: auto;
-    margin-left: 78px;
-    height: 100%;
-    position: relative;
-    transition: all 0.5s;
+  max-width: 1240px;
+  margin: auto;
+  margin-left: 78px;
+  height: 100%;
+  position: relative;
+  transition: all 0.5s;
 }
 
 .cloud {
-    width: 100%;
-    height: 100vh;
-    position: relative;
-    background: rgba(0, 0, 0, .3);
-    transition: all 0.5s;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background: rgba(0, 0, 0, 0.3);
+  transition: all 0.5s;
 }
 
 .cloud:before {
-    content: '';
-    position: absolute;
-    background: url('../../assets/advogadoecliente.png') no-repeat center center/cover;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-    transition: all 0.5s;
+  content: "";
+  position: absolute;
+  background: url("../../assets/advogadoecliente.png") no-repeat center
+    center/cover;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  transition: all 0.5s;
 }
 
 .cloud .contentProposta {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    top: 160px;
-    color: white;
-    position: absolute;
-    left: 875px;
-    width: 50%;
-    padding: 1rem;
-    transition: all 0.5s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  top: 160px;
+  color: white;
+  position: absolute;
+  left: 875px;
+  width: 50%;
+  padding: 1rem;
+  transition: all 0.5s;
 }
 
 .cloud h2 {
-    color: #f8f8f8;
-    transition: all 0.5s;
+  color: #f8f8f8;
+  transition: all 0.5s;
 }
 
 .cloud p {
+  color: #f8f8f8;
+  margin: 1rem 0;
+  text-align: justify;
+  width: 570px;
+  transition: all 0.5s;
+}
+
+@media screen and (min-width: 350px) {
+  .containerProposta {
+    max-width: 1240px;
+    margin: auto;
+    margin-left: -73px;
+    height: 100%;
+    position: relative;
+    transition: all 0.5s;
+  }
+
+  .cloud .contentProposta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: -2px;
+    color: white;
+    position: absolute;
+    left: 72px;
+    width: 50%;
+    padding: 1rem;
+    transition: all 0.5s;
+  }
+
+  .cloud p {
     color: #f8f8f8;
     margin: 1rem 0;
     text-align: justify;
-    width: 570px;
+    width: 326px;
     transition: all 0.5s;
+  }
 }
-
-@media screen and (max-width: 760px) {
-    .cloud .contentProposta {
-        left: 0;
-        width: 100%;
-        padding: 1rem;
-    }
-} 
-
-@media screen and (max-width: 940px) {
-    .cloud .contentProposta {
-        left: 250px;
-        width: 100%;
-        padding: 1rem;
-    }
-}
-
-@media screen and (max-width: 1280px) {
-    .cloud .contentProposta {
-        margin-left: -180px;
-        margin-top: 50px;
-        width: 200px;
-        padding: 1rem;
-    }
-}
-
 
 /* @media screen and (max-width: 600px) {
     .cloud .content {
