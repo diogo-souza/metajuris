@@ -14,7 +14,7 @@
   z-index: -1;
 }
 
-.recovery .content {
+.recovery .contentRecovery {
   position: absolute;
   top: 30%;
   width: 50%;
@@ -31,7 +31,47 @@
   margin: 1rem 0;
 }
 
-@media screen and (min-width: 350px) and (max-width: 880px) {
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .recovery{
+    width: 100%;
+    height: 142vh;
+    position: relative;
+    background: rgba(0, 0, 0, 0.3);
+    transition: all 0.5s;
+  }
+
+  .containerRecovery{
+      max-width: 1240px;
+      margin: auto;
+      margin-left: -73px;
+      height: 100%;
+      position: relative;
+      transition: all 0.5s;
+  }
+
+  .recovery .contentRecovery {
+    width: 320px;
+    margin-left: 70px;
+    margin-top: -69px;
+  }
+
+  .recovery p {
+    color: #f8f8f8;
+    text-align: justify;
+    width: 257px;
+    margin-top: 8px;
+    font-size: 14px;
+    margin-left: -1px;
+    transition: all 0.5s;
+  }
+
+  .h2Recovery {
+    font-size: 1.5rem;
+    transition: all 0.5s;
+  }
+}
+
+/* @media screen and (min-width: 350px) and (max-width: 880px) {
   .recovery .content {
     width: 320px;
     margin-left: -2px;
@@ -46,4 +86,4 @@
 }
 
 @media screen and (min-width: 881px) and (max-width: 1280px) {
-}
+} */

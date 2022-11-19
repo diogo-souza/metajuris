@@ -6,9 +6,9 @@ import { Link } from "react-router-dom";
 const Recovery = () => {
   return (
     <div className="recovery">
-      <div className="container">
-        <div className="content">
-          <h2>
+      <div className="containerRecovery">
+        <div className="contentRecovery">
+          <h2 className="h2Recovery">
             <span>Estrutura e</span> Endereço
           </h2>
           <p>
