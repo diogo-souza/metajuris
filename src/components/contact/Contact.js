@@ -34,10 +34,10 @@ const Contact = () => {
   //
   return (
     <div className="contact">
-      <div className="container">
+      <div className="containerContact">
         <div className="form-container">
           <form ref={form} onSubmit={sendEmail}>
-            <h1>
+            <h1 className="h1Contact">
               <span>Fale</span> Conosco
             </h1>
             <div>

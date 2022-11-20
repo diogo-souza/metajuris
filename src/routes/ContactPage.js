@@ -6,9 +6,9 @@ import Navbar from '../components/navbar/Navbar'
 const ContactPage = () => {
     return (
         <>
-            <Navbar/>
+            <Navbar />
             <Contact />
-            <Footer />   
+            <Footer />
         </>
     )
 }

@@ -11,8 +11,8 @@ function App() {
       <Navbar />
       <Hero />
       {/* <Cloud />
-      <Cards />
-      <Footer /> */}
+      <Cards /> */}
+      <Footer />
     </>
   );
 }

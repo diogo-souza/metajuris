@@ -7,17 +7,17 @@ import './FooterStyles.css'
 const Footer = () => {
     return (
         <div className='footer'>
-            <div className="container">
+            <div className="containerFooter">
                 <div className="top">
                     <div className="logo-footer">
-                        <h2>Metajuris</h2>
+                        <h2 className='h2Footer'>Metajuris</h2>
                     </div>
                 </div>
                 <form>
-                    <h3>Encontre nossos especialistas</h3>
+                    <h3 className='h3Footer'>Encontre nossos especialistas</h3>
                     <input type="email" placeholder='Digite seu email' />
 
-                    <a href="mailto:digsuk360@gmail.com">
+                    <a className='aFooter' href="mailto:digsuk360@gmail.com">
                         <img src={emailIcon} alt="database" className='mail-icon' />
                     </a>
 

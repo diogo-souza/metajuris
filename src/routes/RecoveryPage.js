@@ -9,7 +9,7 @@ const RecoveryPage = () => {
     <>
       <Navbar />
       <Recovery />
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };

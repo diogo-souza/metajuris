@@ -9,7 +9,7 @@ const PropostaPage = () => {
     <>
       <Navbar />
       <Cloud />
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };
