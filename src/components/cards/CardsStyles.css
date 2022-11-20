@@ -392,6 +392,17 @@ svg {
     margin-top: -56px;
   }
 
+  .card:hover~.card {
+    position: relative;
+    left: 26px;
+    transition: 0.4s ease-out;
+    top: 13px;
+  }
+
+  .card:not(:first-child) {
+    margin-left: -61px;
+  }
+
   .card {
     display: flex;
     height: 193px;
