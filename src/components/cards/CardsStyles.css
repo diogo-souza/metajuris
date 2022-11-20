@@ -464,11 +464,22 @@ svg {
     height: 285px;
     width: 100%;
     top: 91px;
-    left: calc(50% - 300px);
+    left: calc(50% - 280px);
     display: flex;
     margin-right: 20px;
-    margin-left: 53px;
+    margin-left: 34px;
     margin-top: 85px;
+  }
+
+  .card:hover~.card {
+    position: relative;
+    left: 26px;
+    transition: 0.4s ease-out;
+    top: 13px;
+  }
+
+  .card:not(:first-child) {
+    margin-left: -61px;
   }
 
   .card {
