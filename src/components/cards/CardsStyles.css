@@ -384,22 +384,22 @@ svg {
     position: absolute;
     height: 414px;
     width: 100%;
-    top: 91px;
-    left: calc(50% - 320px);
+    top: 49px;
+    left: calc(50% - 310px);
     display: flex;
     margin-right: 20px;
-    margin-left: 150px;
+    margin-left: 93px;
     margin-top: 85px;
   }
 
   .card {
     display: flex;
     height: 193px;
-    width: 118px;
+    width: 165px;
     background-color: #17141d;
     border-radius: 10px;
     box-shadow: -1rem 0 3rem #000;
-    margin-left: 34px;
+    margin-left: 61px;
     transition: 0.4s ease-out;
     position: relative;
     left: 0px;
