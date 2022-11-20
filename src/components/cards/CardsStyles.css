@@ -381,15 +381,15 @@ svg {
 
 @media screen and (min-width: 320px) and (max-width: 479px) {
   .containerCards {
-    position: absolute;
+    position: relative;
     height: 414px;
     width: 100%;
     top: 49px;
-    left: calc(50% - 311px);
+    left: calc(50% - 305px);
     display: flex;
     margin-right: 20px;
-    margin-left: 83px;
-    margin-top: 85px;
+    margin-left: 85px;
+    margin-top: -56px;
   }
 
   .card {
