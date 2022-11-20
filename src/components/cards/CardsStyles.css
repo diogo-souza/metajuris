@@ -281,7 +281,7 @@
   background-color: #17141d;
   border-radius: 10px;
   box-shadow: -1rem 0 3rem #000;
-  /*   margin-left: -50px; */
+  margin-left: -50px;
   transition: 0.4s ease-out;
   position: relative;
   left: 0px;
@@ -394,12 +394,12 @@ svg {
 
   .card {
     display: flex;
-    height: 162px;
-    width: 98px;
+    height: 193px;
+    width: 118px;
     background-color: #17141d;
     border-radius: 10px;
     box-shadow: -1rem 0 3rem #000;
-    margin-left: 5px;
+    margin-left: 34px;
     transition: 0.4s ease-out;
     position: relative;
     left: 0px;
@@ -431,6 +431,74 @@ svg {
     color: white;
     font-weight: 300;
     font-size: 10px;
+    position: absolute;
+    left: 13px;
+    top: 15px;
+  }
+
+  .containerText {
+    padding: 49px;
+  }
+
+  .h1Dif {
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 599px) {
+  .containerCards {
+    position: absolute;
+    height: 285px;
+    width: 100%;
+    top: 91px;
+    left: calc(50% - 300px);
+    display: flex;
+    margin-right: 20px;
+    margin-left: 53px;
+    margin-top: 85px;
+  }
+
+  .card {
+    display: flex;
+    height: 193px;
+    width: 118px;
+    background-color: #17141d;
+    border-radius: 10px;
+    box-shadow: -1rem 0 3rem #000;
+    margin-left: 31px;
+    transition: 0.4s ease-out;
+    position: relative;
+    left: 0px;
+  }
+
+  .imgDif {
+    height: 68px;
+    width: 78px;
+    border-radius: 3px;
+    transition: 0.5s;
+    margin-top: 103px;
+    margin-left: 27px;
+  }
+
+  .bar {
+    position: absolute;
+    top: 70px;
+    left: 20px;
+    height: 5px;
+    width: 80px;
+  }
+
+  .card:hover .filledbar {
+    width: 75px;
+    transition: 0.4s ease-out;
+  }
+
+  .title {
+    color: white;
+    font-weight: 300;
+    font-size: 12px;
     position: absolute;
     left: 13px;
     top: 15px;

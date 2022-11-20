@@ -12,7 +12,7 @@ function App() {
       <Hero />
       <Cloud />
       <Cards />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

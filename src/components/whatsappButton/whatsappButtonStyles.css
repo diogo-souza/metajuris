@@ -30,12 +30,16 @@
   }
 }
 
-@media screen and (min-width: 350px) and (max-width: 880px) {
+@media screen and (min-width: 320px) and (max-width: 479px) {
   .btn-whatsapp-pulse {
     margin-bottom: 65px;
     left: 266px;
   }
 }
 
-@media screen and (min-width: 881px) and (max-width: 1280px) {
+@media screen and (min-width: 480px) and (max-width: 599px) {
+  .btn-whatsapp-pulse {
+    margin-bottom: 65px;
+    left: 386px;
+  }
 }
