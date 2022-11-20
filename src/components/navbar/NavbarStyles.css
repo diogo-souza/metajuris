@@ -266,6 +266,61 @@
   }
 }
 
+@media screen and (min-width: 600px) and (max-width: 699px) {
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.5s;
+    overflow: inherit;
+  }
+
+  .mainTitle {
+    position: relative;
+    left: 161px;
+    color: #dfac1c;
+    font-family: MuseoSlab;
+    font-weight: 100;
+    font-size: 40px;
+    top: 78px;
+  }
+
+  .mainLine {
+    height: -14px;
+    background: #dfac1c;
+    left: 140px;
+    margin-top: 194px;
+    position: relative;
+    width: 250px;
+    transition: all 0.5s;
+  }
+
+  .mainSubtitle {
+    width: 244px;
+    margin-left: -96px;
+    margin-top: 224px;
+    position: relative;
+    color: #dfac1c;
+    font-family: GamberoThin;
+    font-weight: 100;
+    font-size: 15px;
+    transition: all 0.5s;
+  }
+
+  .navbar .nav-menu {
+    height: 100%;
+    align-items: center;
+    display: flex;
+    padding: 1rem;
+    margin-left: -408px;
+    left: -37px;
+    transition: all 0.5s;
+    position: relative;
+    justify-content: center;
+  }
+
+}
+
 /* @media screen and (min-width: 350px) and (max-width: 880px) {
   .mainTitle {
     position: relative;

@@ -333,6 +333,107 @@
   }
 }
 
+@media screen and (min-width: 600px) and (max-width: 699px) {
+  .containerFooter {
+    max-width: 1240px;
+    margin: auto;
+    margin-left: 101px;
+    height: 100%;
+    position: relative;
+    transition: all 0.5s;
+  }
+
+  .footer .top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: -2px;
+    color: white;
+    position: absolute;
+    left: 45px;
+    width: 50%;
+    padding: 1rem;
+    transition: all 0.5s;
+  }
+
+  .h2Footer {
+    color: black;
+    margin-top: 6px;
+    margin-left: -149px;
+  }
+
+  .footer h3 {
+    color: black;
+    margin-top: 74px;
+    margin-left: -66px;
+  }
+
+  .footer form input {
+    padding: 1rem;
+    outline: none;
+    font-size: 1rem;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    color: #333;
+    transition: all 0.5s;
+    margin-left: -67px;
+    width: 405px;
+  }
+
+  .footer form .mail-icon {
+    position: relative;
+    font-size: 1.4rem;
+    margin: -0.5rem;
+    right: -126.8px;
+    color: #aaa;
+    cursor: pointer;
+    top: -13px;
+    height: 70px;
+    margin-left: 132px;
+    margin-right: auto;
+    margin-top: -51px;
+    transition: all 0.5s;
+  }
+
+  .socialGroup {
+    margin-left: -66px;
+    margin-bottom: 5px;
+  }
+
+  .footer p {
+    margin: 0.5rem 0;
+    transition: all 0.5s;
+    margin-left: 16px;
+    width: 550px;
+    font-size: 15px;
+  }
+
+  .endereco {
+    position: relative;
+    transition: all 0.5s;
+    -webkit-user-select: none;
+    user-select: none;
+    top: 0px;
+  }
+
+  .footer {
+    z-index: -1;
+    width: 100%;
+    height: 37vh;
+    position: relative;
+    background: rgba(255, 255, 255, 0.7);
+    transition: all 0.5s;
+  }
+
+  .footer form {
+    width: 100%;
+    margin-bottom: 0.6rem;
+    position: relative;
+    transition: all 0.5s;
+    margin-left: -52px;
+  }
+}
+
 /* @media screen and (min-width: 350px) and (max-width: 880px) {
   .footer h3 {
     margin: 1rem 0 2rem 0;

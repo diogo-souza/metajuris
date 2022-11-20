@@ -88,6 +88,29 @@
 
 }
 
+@media screen and (min-width: 600px) and (max-width: 699px) {
+  .hero .contentHero {
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .hero .contentHero p {
+    margin: 1rem 0;
+    color: white;
+    text-align: justify;
+    width: 546px;
+    transition: all 0.5s;
+    font-size: 20px;
+  }
+
+  .h2Hero {
+    font-size: 2.5rem;
+    transition: all 0.5s;
+  }
+
+}
+
 /* @media screen and (min-width: 350px) and (max-width: 880px) {
   .hero .content {
     left: 0;
