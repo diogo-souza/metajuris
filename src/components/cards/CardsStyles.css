@@ -298,7 +298,7 @@
 
 .card:hover~.card {
   position: relative;
-  left: 50px;
+  left: 40px;
   transition: 0.4s ease-out;
 }
 
