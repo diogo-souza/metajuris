@@ -113,6 +113,49 @@ textarea:focus {
   }
 }
 
+@media screen and (min-width: 480px) and (max-width: 599px) {
+  .contact {
+    width: 100%;
+    height: 107vh;
+    position: relative;
+    background: rgba(0, 0, 0, 0.3);
+    transition: all 0.5s;
+  }
+
+  .containerContact {
+    max-width: 1240px;
+    margin: auto;
+    margin-left: -73px;
+    height: 100%;
+    position: relative;
+    transition: all 0.5s;
+  }
+
+  .contact .form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 33px;
+    color: white;
+    position: absolute;
+    left: 46px;
+    width: 50%;
+    padding: 1rem;
+    transition: all 0.5s;
+  }
+
+  .contact form {
+    width: 398px;
+    margin: -8rem;
+    margin-left: 56px;
+    margin-top: 168px;
+  }
+
+  .h1Contact {
+    font-size: 40px;
+  }
+}
+
 /* @media screen and (min-width: 350px) and (max-width: 880px) {
   .contact .container .form-container {
     display: flex;
