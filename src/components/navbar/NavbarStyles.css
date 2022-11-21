@@ -374,6 +374,61 @@
   }
 }
 
+@media screen and (min-width: 803px) and (max-width: 1024px) {
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.5s;
+    overflow: inherit;
+  }
+
+  .mainTitle {
+    position: relative;
+    left: 28px;
+    color: #dfac1c;
+    font-family: MuseoSlab;
+    font-weight: 100;
+    font-size: 40px;
+    top: -2px;
+  }
+
+  .mainLine {
+    height: -14px;
+    background: #dfac1c;
+    left: 6px;
+    margin-top: 45px;
+    position: relative;
+    width: 250px;
+    transition: all 0.5s;
+  }
+
+  .mainSubtitle {
+    width: 244px;
+    margin-left: -228px;
+    margin-top: 88px;
+    position: relative;
+    color: #dfac1c;
+    font-family: GamberoThin;
+    font-weight: 100;
+    font-size: 15px;
+    transition: all 0.5s;
+  }
+
+  .navbar .nav-menu {
+    height: 100%;
+    align-items: center;
+    display: flex;
+    padding: 1rem;
+    margin-left: -250px;
+    left: -55px;
+    top: 19px;
+    transition: all 0.5s;
+    position: relative;
+    justify-content: center;
+  }
+}
+
 /* @media screen and (min-width: 350px) and (max-width: 880px) {
   .mainTitle {
     position: relative;

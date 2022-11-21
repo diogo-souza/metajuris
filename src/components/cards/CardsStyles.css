@@ -695,6 +695,85 @@ svg {
   }
 }
 
+@media screen and (min-width: 803px) and (max-width: 1024px) {
+  .containerCards {
+    position: absolute;
+    height: 285px;
+    width: 100%;
+    top: 91px;
+    left: calc(50% - 280px);
+    display: flex;
+    margin-right: 20px;
+    margin-left: -207px;
+    margin-top: 85px;
+  }
+
+  .card:hover~.card {
+    position: relative;
+    left: 26px;
+    transition: 0.4s ease-out;
+    top: 13px;
+  }
+
+  .card:not(:first-child) {
+    margin-left: -61px;
+  }
+
+  .card {
+    display: flex;
+    height: 236px;
+    width: 152px;
+    background-color: #17141d;
+    border-radius: 10px;
+    box-shadow: -1rem 0 3rem #000;
+    margin-left: 218px;
+    transition: 0.4s ease-out;
+    position: relative;
+    left: 0px;
+  }
+
+  .imgDif {
+    height: 102px;
+    width: 108px;
+    border-radius: 3px;
+    transition: 0.5s;
+    margin-top: 103px;
+    margin-left: 21px;
+  }
+
+  .bar {
+    position: absolute;
+    top: 70px;
+    left: 20px;
+    height: 5px;
+    width: 115px;
+  }
+
+  .card:hover .filledbar {
+    width: 105px;
+    transition: 0.4s ease-out;
+  }
+
+  .title {
+    color: white;
+    font-weight: 300;
+    font-size: 16px;
+    position: absolute;
+    left: 13px;
+    top: 15px;
+  }
+
+  .containerText {
+    padding: 49px;
+  }
+
+  .h1Dif {
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+  }
+}
+
 /* @media screen and (min-width: 350px) and (max-width: 880px) {
   .containerCards {
     position: absolute;
