@@ -111,6 +111,35 @@
 
 }
 
+@media screen and (min-width: 700px) and (max-width: 802px) {
+  .hero .contentHero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 30%;
+    color: white;
+    position: absolute;
+    left: 6%;
+    width: 453px;
+    padding: 1rem;
+    transition: all 0.5s;
+  }
+
+  .hero .contentHero p {
+    margin: 1rem 0;
+    color: white;
+    text-align: justify;
+    width: 598px;
+    transition: all 0.5s;
+  }
+
+  .h2Hero {
+    font-size: 2.5rem;
+    transition: all 0.5s;
+  }
+
+}
+
 /* @media screen and (min-width: 350px) and (max-width: 880px) {
   .hero .content {
     left: 0;
