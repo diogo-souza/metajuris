@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import menuicon from '../../assets/menu.png'
 import './NavbarStyles.css'
+import mainLogo from '../../assets/Logotipo_Metajuris.png'
 
 import { Link } from 'react-router-dom'
 
@@ -13,9 +14,7 @@ const Navbar = () => {
         <div name='top' className='navbar'>
             <div className="container">
                 <div className="logo">
-                    <h1 className='mainTitle'>METAJURIS</h1>
-                    <div class="mainLine"></div>
-                    <h3 className='mainSubtitle'>ADVOCACIA E CONSULTORIA</h3>
+                    <img width="400" height="110" src={mainLogo} alt="Main Logo"></img>
                 </div>
 
                 <ul className={nav ? 'nav-menu active' : 'nav-menu'}>

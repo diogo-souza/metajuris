@@ -1,5 +1,5 @@
 .btn-whatsapp-pulse {
-  background: #dfac1c;
+  background: #e7af7a;
   color: white;
   position: fixed;
   bottom: 20px;
@@ -22,7 +22,7 @@
 
 @keyframes pulse {
   0% {
-    box-shadow: 0 0 0 0 #dfac1c;
+    box-shadow: 0 0 0 0 #e7af7a;
   }
 
   80% {
