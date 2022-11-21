@@ -1,7 +1,7 @@
 .containerProposta {
   max-width: 1240px;
   margin: auto;
-  margin-left: 78px;
+  margin-left: 306px;
   height: 100%;
   position: relative;
   transition: all 0.5s;
@@ -29,10 +29,10 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  top: 160px;
+  top: 172px;
   color: white;
   position: absolute;
-  left: 875px;
+  left: 586px;
   width: 50%;
   padding: 1rem;
   transition: all 0.5s;
@@ -48,7 +48,7 @@
   color: #f8f8f8;
   margin: 1rem 0;
   text-align: justify;
-  width: 310px;
+  width: 680px;
   transition: all 0.5s;
   font-size: 18px;
 }

@@ -10,9 +10,32 @@
 
 .contact {
   width: 100%;
-  height: 100vh;
+  height: 107vh;
   position: relative;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.3);
+  transition: all 0.5s;
+}
+
+.containerContact {
+  max-width: 1240px;
+  margin: auto;
+  margin-left: 6px;
+  height: 100%;
+  position: relative;
+  transition: all 0.5s;
+}
+
+.contact .form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  top: 53px;
+  color: white;
+  position: absolute;
+  left: 162px;
+  width: 50%;
+  padding: 1rem;
+  transition: all 0.5s;
 }
 
 .contact:before {
@@ -35,10 +58,10 @@
 }
 
 .contact form {
-  width: 200%;
+  width: 899px;
   margin: -8rem;
-  margin-left: 25%;
-  margin-top: 1%;
+  margin-left: 295px;
+  margin-top: 168px;
 }
 
 .contact .form-container div {
