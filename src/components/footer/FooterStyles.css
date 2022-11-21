@@ -89,9 +89,9 @@
 .footer p {
   margin: 0.5rem 0;
   transition: all 0.5s;
-  margin-left: 521px;
-  width: 899px;
-  font-size: 20px;
+  margin-left: 456px;
+  width: 840px;
+  font-size: 18px;
 }
 
 .footer form {
@@ -152,11 +152,6 @@
   color: black;
   margin-top: 6px;
   margin-left: -149px;
-}
-
-.socialGroup {
-  margin-left: -17px;
-  margin-bottom: -6px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 479px) {
