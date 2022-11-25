@@ -769,7 +769,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    top: -2px;
+    top: -10px;
     color: white;
     position: absolute;
     left: 88px;
@@ -786,7 +786,7 @@
 
   .footer h3 {
     color: black;
-    margin-top: 74px;
+    margin-top: 84px;
     margin-left: -24px;
   }
 
