@@ -62,7 +62,6 @@
     font-size: 2rem;
     transition: all 0.5s;
   }
-
 }
 
 @media screen and (min-width: 480px) and (max-width: 599px) {
@@ -85,7 +84,6 @@
     font-size: 2.5rem;
     transition: all 0.5s;
   }
-
 }
 
 @media screen and (min-width: 600px) and (max-width: 699px) {
@@ -108,7 +106,6 @@
     font-size: 2.5rem;
     transition: all 0.5s;
   }
-
 }
 
 @media screen and (min-width: 700px) and (max-width: 802px) {
@@ -137,7 +134,133 @@
     font-size: 2.5rem;
     transition: all 0.5s;
   }
+}
 
+@media screen and (min-width: 1249px) and (max-width: 1499px) {
+  .hero .contentHero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 30%;
+    color: white;
+    position: absolute;
+    left: 14px;
+    width: 453px;
+    padding: 1rem;
+    transition: all 0.5s;
+  }
+
+  .hero .contentHero p {
+    margin: 1rem 0;
+    color: white;
+    text-align: justify;
+    width: 598px;
+    transition: all 0.5s;
+  }
+
+  .h2Hero {
+    font-size: 2.5rem;
+    transition: all 0.5s;
+  }
+}
+
+@media screen and (min-width: 1500px) and (max-width: 1799px) {
+  .hero .contentHero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 30%;
+    color: white;
+    position: absolute;
+    left: 24px;
+    width: 453px;
+    padding: 1rem;
+    transition: all 0.5s;
+  }
+
+  .hero .contentHero p {
+    margin: 1rem 0;
+    color: white;
+    text-align: justify;
+    width: 598px;
+    transition: all 0.5s;
+  }
+
+  .h2Hero {
+    font-size: 2.5rem;
+    transition: all 0.5s;
+  }
+}
+
+@media screen and (min-width: 1800px) and (max-width: 2099px) {
+  .hero .contentHero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 35%;
+    color: white;
+    position: absolute;
+    left: 24px;
+    width: 453px;
+    padding: 1rem;
+    transition: all 0.5s;
+  }
+
+  .hero .contentHero p {
+    margin: 1rem 0;
+    color: white;
+    text-align: justify;
+    width: 598px;
+    transition: all 0.5s;
+  }
+
+  .h2Hero {
+    font-size: 2.5rem;
+    transition: all 0.5s;
+  }
+}
+
+@media screen and (min-width: 2100px) and (max-width: 2399px) {
+  .hero .contentHero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 35%;
+    color: white;
+    position: absolute;
+    left: 24px;
+    width: 560px;
+    padding: 1rem;
+    transition: all 0.5s;
+  }
+
+  .hero .contentHero p {
+    margin: 1rem 0;
+    color: white;
+    text-align: justify;
+    width: 780px;
+    transition: all 0.5s;
+    font-size: 30px;
+  }
+
+  .h2Hero {
+    font-size: 4rem;
+    transition: all 0.5s;
+  }
+
+  .btnGold {
+    font-family: "Roboto", sans-serif;
+    padding: 0.7rem 1.5rem;
+    margin: 1rem 0;
+    background-color: #e7af7a;
+    border: 1px solid #e7af7a;
+    color: #f8f8f8;
+    font-size: 2.2rem;
+    font-weight: 600;
+    display: flex;
+    border-radius: 4px;
+    transition: all 0.5s;
+  }
 }
 
 /* @media screen and (min-width: 350px) and (max-width: 880px) {
