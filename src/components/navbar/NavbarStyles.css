@@ -681,11 +681,12 @@
     display: flex;
     padding: 1rem;
     margin-left: -250px;
-    left: 125px;
+    left: 25px;
     top: 19px;
     transition: all 0.5s;
     position: relative;
     justify-content: center;
+    font-size: 1.25rem;
   }
 
   .navbar .logo {
@@ -699,7 +700,7 @@
 
   .navbar img {
     width: 385px;
-    height: 124px;
+    height: 104px;
     margin-left: 40px;
   }
 }

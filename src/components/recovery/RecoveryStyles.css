@@ -233,7 +233,7 @@
   }
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1250px) {
+@media screen and (min-width: 1025px) and (max-width: 1249px) {
   .recovery {
     width: 100%;
     height: 88vh;
@@ -269,6 +269,249 @@
 
   .h2Recovery {
     font-size: 2rem;
+    transition: all 0.5s;
+  }
+}
+
+@media screen and (min-width: 1250px) and (max-width: 1399px) {
+  .recovery {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: rgba(0, 0, 0, 0.3);
+    transition: all 0.5s;
+  }
+
+  .containerRecovery {
+    max-width: 1240px;
+    margin: auto;
+    margin-left: -73px;
+    height: 100%;
+    position: relative;
+    transition: all 0.5s;
+  }
+
+  .recovery .contentRecovery {
+    position: absolute;
+    text-align: justify;
+    top: 266px;
+    width: 50%;
+    left: 135px;
+    padding: 1rem;
+  }
+
+  .recovery p {
+    color: #f8f8f8;
+    text-align: justify;
+    width: 508px;
+    margin-top: 8px;
+    font-size: 20px;
+    margin-left: -1px;
+    transition: all 0.5s;
+  }
+
+  .h2Recovery {
+    font-size: 2rem;
+    transition: all 0.5s;
+  }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1599px) {
+  .recovery {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: rgba(0, 0, 0, 0.3);
+    transition: all 0.5s;
+  }
+
+  .containerRecovery {
+    max-width: 1240px;
+    margin: auto;
+    margin-left: -73px;
+    height: 100%;
+    position: relative;
+    transition: all 0.5s;
+  }
+
+  .recovery .contentRecovery {
+    position: absolute;
+    text-align: justify;
+    top: 266px;
+    width: 50%;
+    left: 218px;
+    padding: 1rem;
+  }
+
+  .recovery p {
+    color: #f8f8f8;
+    text-align: justify;
+    width: 508px;
+    margin-top: 8px;
+    font-size: 20px;
+    margin-left: -1px;
+    transition: all 0.5s;
+  }
+
+  .h2Recovery {
+    font-size: 2rem;
+    transition: all 0.5s;
+  }
+}
+
+@media screen and (min-width: 1600px) and (max-width: 1799px) {
+  .recovery {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: rgba(0, 0, 0, 0.3);
+    transition: all 0.5s;
+  }
+
+  .containerRecovery {
+    max-width: 1240px;
+    margin: auto;
+    margin-left: -73px;
+    height: 100%;
+    position: relative;
+    transition: all 0.5s;
+  }
+
+  .recovery .contentRecovery {
+    position: absolute;
+    text-align: justify;
+    top: 300px;
+    width: 50%;
+    left: 318px;
+    padding: 1rem;
+  }
+
+  .recovery p {
+    color: #f8f8f8;
+    text-align: justify;
+    width: 508px;
+    margin-top: 8px;
+    font-size: 20px;
+    margin-left: -1px;
+    transition: all 0.5s;
+  }
+
+  .h2Recovery {
+    font-size: 2rem;
+    transition: all 0.5s;
+  }
+}
+
+@media screen and (min-width: 1800px) and (max-width: 1999px) {
+  .recovery {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: rgba(0, 0, 0, 0.3);
+    transition: all 0.5s;
+  }
+
+  .containerRecovery {
+    max-width: 1240px;
+    margin: auto;
+    margin-left: -73px;
+    height: 100%;
+    position: relative;
+    transition: all 0.5s;
+  }
+
+  .recovery .contentRecovery {
+    position: absolute;
+    text-align: justify;
+    top: 300px;
+    width: 50%;
+    left: 425px;
+    padding: 1rem;
+  }
+
+  .recovery p {
+    color: #f8f8f8;
+    text-align: justify;
+    width: 608px;
+    margin-top: 8px;
+    font-size: 1.5rem;
+    margin-left: -1px;
+    transition: all 0.5s;
+  }
+
+  .h2Recovery {
+    font-size: 3rem;
+    transition: all 0.5s;
+  }
+
+  .recovery .contentRecovery button {
+    font-family: "Roboto", sans-serif;
+    padding: 0.7rem 1.5rem;
+    margin: 1rem 0;
+    background-color: #e7af7a;
+    border: 1px solid #e7af7a;
+    color: #f8f8f8;
+    font-size: 1.8rem;
+    font-weight: 600;
+    display: flex;
+    border-radius: 4px;
+    transition: all 0.5s;
+  }
+}
+
+@media screen and (min-width: 2000px) and (max-width: 2199px) {
+  .recovery {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: rgba(0, 0, 0, 0.3);
+    transition: all 0.5s;
+  }
+
+  .containerRecovery {
+    max-width: 1240px;
+    margin: auto;
+    margin-left: -73px;
+    height: 100%;
+    position: relative;
+    transition: all 0.5s;
+  }
+
+  .recovery .contentRecovery {
+    position: absolute;
+    text-align: justify;
+    top: 300px;
+    width: 50%;
+    left: 384px;
+    padding: 1rem;
+  }
+
+  .recovery p {
+    color: #f8f8f8;
+    text-align: justify;
+    width: 808px;
+    margin-top: 8px;
+    font-size: 1.8rem;
+    margin-left: -1px;
+    transition: all 0.5s;
+  }
+
+  .h2Recovery {
+    font-size: 3.2rem;
+    transition: all 0.5s;
+  }
+
+  .recovery .contentRecovery button {
+    font-family: "Roboto", sans-serif;
+    padding: 0.7rem 1.5rem;
+    margin: 1rem 0;
+    background-color: #e7af7a;
+    border: 1px solid #e7af7a;
+    color: #f8f8f8;
+    font-size: 2.2rem;
+    font-weight: 600;
+    display: flex;
+    border-radius: 4px;
     transition: all 0.5s;
   }
 }

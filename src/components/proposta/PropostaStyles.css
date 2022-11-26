@@ -376,7 +376,7 @@
   }
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1250px) {
+@media screen and (min-width: 1025px) and (max-width: 1249px) {
   .proposta {
     width: 100%;
     height: 87vh;
@@ -433,6 +433,331 @@
     border: 1px solid #e7af7a;
     color: #f8f8f8;
     font-size: 1.2rem;
+    font-weight: 600;
+    display: flex;
+    border-radius: 4px;
+    margin-left: -151px;
+    transition: all 0.5s;
+  }
+}
+
+@media screen and (min-width: 1250px) and (max-width: 1399px) {
+  .proposta {
+    width: 100%;
+    height: 101vh;
+    position: relative;
+    background: rgba(0, 0, 0, 0.3);
+    transition: all 0.5s;
+  }
+
+  .containerPropostaTela {
+    max-width: 1240px;
+    margin: auto;
+    margin-left: 217px;
+    height: 100%;
+    position: relative;
+    transition: all 0.5s;
+  }
+
+  .proposta .contentPropostaTela {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: -37px;
+    color: white;
+    position: absolute;
+    left: 550px;
+    width: 50%;
+    padding: 1rem;
+    transition: all 0.5s;
+  }
+
+  .proposta p {
+    color: #f8f8f8;
+    text-align: justify;
+    width: 508px;
+    margin-top: 1px;
+    font-size: 15px;
+    margin-left: -150px;
+    transition: all 0.5s;
+  }
+
+  .proposta h2 {
+    color: #f8f8f8;
+    transition: all 0.5s;
+    margin-top: 222px;
+    font-size: 40px;
+    margin-left: -149px;
+  }
+
+  .proposta button {
+    font-family: "Roboto", sans-serif;
+    padding: 0.7rem 1.5rem;
+    margin: 1rem 0;
+    background-color: #e7af7a;
+    border: 1px solid #e7af7a;
+    color: #f8f8f8;
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: flex;
+    border-radius: 4px;
+    margin-left: -151px;
+    transition: all 0.5s;
+  }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1599px) {
+  .proposta {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: rgba(0, 0, 0, 0.3);
+    transition: all 0.5s;
+  }
+
+  .containerPropostaTela {
+    max-width: 1240px;
+    margin: auto;
+    margin-left: 217px;
+    height: 100%;
+    position: relative;
+    transition: all 0.5s;
+  }
+
+  .proposta .contentPropostaTela {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 10px;
+    color: white;
+    position: absolute;
+    left: 662px;
+    width: 50%;
+    padding: 1rem;
+    transition: all 0.5s;
+  }
+
+  .proposta p {
+    color: #f8f8f8;
+    text-align: justify;
+    width: 508px;
+    margin-top: 1px;
+    font-size: 15px;
+    margin-left: -150px;
+    transition: all 0.5s;
+  }
+
+  .proposta h2 {
+    color: #f8f8f8;
+    transition: all 0.5s;
+    margin-top: 222px;
+    font-size: 40px;
+    margin-left: -149px;
+  }
+
+  .proposta button {
+    font-family: "Roboto", sans-serif;
+    padding: 0.7rem 1.5rem;
+    margin: 1rem 0;
+    background-color: #e7af7a;
+    border: 1px solid #e7af7a;
+    color: #f8f8f8;
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: flex;
+    border-radius: 4px;
+    margin-left: -151px;
+    transition: all 0.5s;
+  }
+}
+
+@media screen and (min-width: 1600px) and (max-width: 1799px) {
+  .proposta {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: rgba(0, 0, 0, 0.3);
+    transition: all 0.5s;
+  }
+
+  .containerPropostaTela {
+    max-width: 1240px;
+    margin: auto;
+    margin-left: 217px;
+    height: 100%;
+    position: relative;
+    transition: all 0.5s;
+  }
+
+  .proposta .contentPropostaTela {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 2px;
+    color: white;
+    position: absolute;
+    left: 802px;
+    width: 50%;
+    padding: 1rem;
+    transition: all 0.5s;
+  }
+
+  .proposta p {
+    color: #f8f8f8;
+    text-align: justify;
+    width: 576px;
+    margin-top: 1px;
+    font-size: 1.25rem;
+    margin-left: -150px;
+    transition: all 0.5s;
+  }
+
+  .proposta h2 {
+    color: #f8f8f8;
+    transition: all 0.5s;
+    margin-top: 222px;
+    font-size: 2.7rem;
+    margin-left: -149px;
+  }
+
+  .proposta button {
+    font-family: "Roboto", sans-serif;
+    padding: 0.7rem 1.5rem;
+    margin: 1rem 0;
+    background-color: #e7af7a;
+    border: 1px solid #e7af7a;
+    color: #f8f8f8;
+    font-size: 1.5rem;
+    font-weight: 600;
+    display: flex;
+    border-radius: 4px;
+    margin-left: -151px;
+    transition: all 0.5s;
+  }
+}
+
+@media screen and (min-width: 1800px) and (max-width: 1999px) {
+  .proposta {
+    width: 100%;
+    height: 102vh;
+    position: relative;
+    background: rgba(0, 0, 0, 0.3);
+    transition: all 0.5s;
+  }
+
+  .containerPropostaTela {
+    max-width: 1240px;
+    margin: auto;
+    margin-left: 217px;
+    height: 100%;
+    position: relative;
+    transition: all 0.5s;
+  }
+
+  .proposta .contentPropostaTela {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 24px;
+    color: white;
+    position: absolute;
+    left: 1060px;
+    width: 50%;
+    padding: 1rem;
+    transition: all 0.5s;
+  }
+
+  .proposta p {
+    color: #f8f8f8;
+    text-align: justify;
+    width: 594px;
+    margin-top: 1px;
+    font-size: 1.35rem;
+    margin-left: -150px;
+    transition: all 0.5s;
+  }
+
+  .proposta h2 {
+    color: #f8f8f8;
+    transition: all 0.5s;
+    margin-top: 222px;
+    font-size: 2.7rem;
+    margin-left: -152px;
+  }
+
+  .proposta button {
+    font-family: "Roboto", sans-serif;
+    padding: 0.7rem 1.5rem;
+    margin: 1rem 0;
+    background-color: #e7af7a;
+    border: 1px solid #e7af7a;
+    color: #f8f8f8;
+    font-size: 1.5rem;
+    font-weight: 600;
+    display: flex;
+    border-radius: 4px;
+    margin-left: -151px;
+    transition: all 0.5s;
+  }
+}
+
+@media screen and (min-width: 2000px) and (max-width: 2199px) {
+  .proposta {
+    width: 100%;
+    height: 102vh;
+    position: relative;
+    background: rgba(0, 0, 0, 0.3);
+    transition: all 0.5s;
+  }
+
+  .containerPropostaTela {
+    max-width: 1240px;
+    margin: auto;
+    margin-left: 217px;
+    height: 100%;
+    position: relative;
+    transition: all 0.5s;
+  }
+
+  .proposta .contentPropostaTela {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 45px;
+    color: white;
+    position: absolute;
+    left: 1152px;
+    width: 50%;
+    padding: 1rem;
+    transition: all 0.5s;
+  }
+
+  .proposta p {
+    color: #f8f8f8;
+    text-align: justify;
+    width: 680px;
+    margin-top: 1px;
+    font-size: 1.6rem;
+    margin-left: -150px;
+    transition: all 0.5s;
+  }
+
+  .proposta h2 {
+    color: #f8f8f8;
+    transition: all 0.5s;
+    margin-top: 222px;
+    font-size: 3.4rem;
+    margin-left: -152px;
+  }
+
+  .proposta button {
+    font-family: "Roboto", sans-serif;
+    padding: 0.7rem 1.5rem;
+    margin: 1rem 0;
+    background-color: #e7af7a;
+    border: 1px solid #e7af7a;
+    color: #f8f8f8;
+    font-size: 2rem;
     font-weight: 600;
     display: flex;
     border-radius: 4px;
