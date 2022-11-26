@@ -354,7 +354,7 @@ textarea:focus {
 @media screen and (min-width: 1250px) and (max-width: 1399px) {
   .contact {
     width: 100%;
-    height: 102vh;
+    height: 115vh;
     position: relative;
     background: rgba(0, 0, 0, 0.3);
     transition: all 0.5s;
@@ -397,7 +397,7 @@ textarea:focus {
 @media screen and (min-width: 1400px) and (max-width: 1599px) {
   .contact {
     width: 100%;
-    height: 102vh;
+    height: 118vh;
     position: relative;
     background: rgba(0, 0, 0, 0.3);
     transition: all 0.5s;
@@ -440,7 +440,7 @@ textarea:focus {
 @media screen and (min-width: 1600px) and (max-width: 1799px) {
   .contact {
     width: 100%;
-    height: 102vh;
+    height: 121vh;
     position: relative;
     background: rgba(0, 0, 0, 0.3);
     transition: all 0.5s;
@@ -483,7 +483,7 @@ textarea:focus {
 @media screen and (min-width: 1800px) and (max-width: 1999px) {
   .contact {
     width: 100%;
-    height: 102vh;
+    height: 124vh;
     position: relative;
     background: rgba(0, 0, 0, 0.3);
     transition: all 0.5s;
@@ -553,7 +553,7 @@ textarea:focus {
 @media screen and (min-width: 2000px) and (max-width: 2199px) {
   .contact {
     width: 100%;
-    height: 102vh;
+    height: 127vh;
     position: relative;
     background: rgba(0, 0, 0, 0.3);
     transition: all 0.5s;
