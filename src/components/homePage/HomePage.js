@@ -1,5 +1,5 @@
 import React from "react";
-import "./HeroStyles.css";
+import "./HomePage.css";
 import WhatsappButton from "../whatsappButton/whatsappButton";
 
 const Hero = () => {

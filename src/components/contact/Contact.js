@@ -2,11 +2,8 @@ import React, { useRef } from "react";
 import "./ContactStyles.css";
 import emailjs from "@emailjs/browser";
 import WhatsappButton from "../whatsappButton/whatsappButton";
-import Modal from "../modal/Modal";
-import useModal from "../modal/UseModal";
 
 const Contact = () => {
-  const { isShowing, toggle } = useModal();
   const form = useRef();
   let recover = "";
 
@@ -15,10 +12,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_rt9l2jb",
-        "template_62jf44c",
+        "xxxx",
+        "xxxx",
         form.current,
-        "ySfyoPtcLFVlO1jGF"
+        "xxxx"
       )
       .then(
         (result) => {
@@ -70,7 +67,6 @@ const Contact = () => {
             {recover === "OK"
               ? console.log("Email enviado")
               : console.log("Email NAO enviado")}
-            {/* <Modal isShowing={isShowing} hide={toggle} />; */}
           </form>
         </div>
         <WhatsappButton />

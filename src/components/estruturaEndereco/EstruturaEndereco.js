@@ -1,5 +1,5 @@
 import React from "react";
-import "./RecoveryStyles.css";
+import "./EstruturaEndereco.css";
 import WhatsappButton from "../whatsappButton/whatsappButton";
 import { Link } from "react-router-dom";
 

@@ -515,20 +515,3 @@
     transition: all 0.5s;
   }
 }
-
-/* @media screen and (min-width: 350px) and (max-width: 880px) {
-  .recovery .content {
-    width: 320px;
-    margin-left: -2px;
-    margin-top: -39px;
-  }
-
-  .recovery p {
-    color: #f8f8f8;
-    margin: 1rem 0;
-    font-size: 15px;
-  }
-}
-
-@media screen and (min-width: 881px) and (max-width: 1280px) {
-} */

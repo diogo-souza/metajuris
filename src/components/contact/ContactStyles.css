@@ -619,18 +619,3 @@ textarea:focus {
     transition: all 0.5s;
   }
 }
-
-/* @media screen and (min-width: 350px) and (max-width: 880px) {
-  .contact .container .form-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    color: #f8f8f8;
-    width: 238px;
-    margin-left: -37px;
-  }
-}
-
-@media screen and (min-width: 881px) and (max-width: 1280px) {
-} */
